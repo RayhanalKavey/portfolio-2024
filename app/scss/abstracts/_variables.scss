@@ -1,0 +1,30 @@
+/* color */
+$c-light-green: rgb(126, 213, 11);
+$c-medium-green: rgb(85, 197, 122);
+$c-dark-green: rgb(40, 180, 133);
+$c-light-orange: #ffb900;
+$c-medium-orange: #ff7730;
+$c-light-blue: #2998ff;
+$c-medium-blue: #5643fa;
+
+$c-gray-light-1: #f7f7f7;
+$c-text-light: white;
+$c-text-dark: rgb(119, 119, 119);
+$c-background-light: white;
+$c-background-dark: rgb(119, 119, 119);
+$c-black: #000;
+$c-white: white;
+/* font */
+$font-family: "Lato", sans-serif;
+$base-font-weight: 400;
+$base-font-size: 1.6rem;
+$medium-font-size: 3.5rem;
+$large-font-size: 6rem;
+$base-line-height: 1.7;
+
+// Shadow
+$card-shadow: 0 1.5rem 4rem rgba($c-black, 0.15);
+
+$btn-shadow-light: 0 5px 10px rgba(0, 0, 0, 0.2);
+$btn-shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.2);
+// Liner gradient

@@ -1,0 +1,8 @@
+@use "../abstracts" as *;
+
+.paragraph {
+  font-size: $base-font-size;
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}

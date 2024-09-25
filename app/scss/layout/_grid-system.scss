@@ -1,111 +1,32 @@
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-  80% {
-    transform: translateX(1rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-  80% {
-    transform: translateX(-2rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(-1rem);
-  }
-}
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(10rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-/* color */
-/* font */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  scroll-behavior: smooth;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.7;
-  color: rgb(119, 119, 119);
-  padding: 3rem;
-  box-sizing: border-box;
-}
-
-.paragraph {
-  font-size: 1.6rem;
-}
-.paragraph:not(:last-child) {
-  margin-bottom: 3rem;
-}
+@use "../abstracts" as *;
 
 .justify-content-center {
   justify-content: center;
 }
-
 .align-items-center {
   align-items: center;
 }
-
 .container {
   padding-left: 12px;
   padding-right: 12px;
   margin-left: auto;
   margin-right: auto;
-}
-@media (min-width: 576px) {
-  .container {
+  @media (min-width: 576px) {
     max-width: 540px;
   }
-}
-@media (min-width: 768px) {
-  .container {
+  @media (min-width: 768px) {
     max-width: 720px;
   }
-}
-@media (min-width: 992px) {
-  .container {
+  @media (min-width: 992px) {
     max-width: 980px;
   }
-}
-@media (min-width: 1200px) {
-  .container {
+  @media (min-width: 1200px) {
     max-width: 1140px;
   }
-}
-@media (min-width: 1400px) {
-  .container {
+  @media (min-width: 1400px) {
     max-width: 1194px;
   }
 }
-
 .row {
   --gutter-x: 24px;
   --gutter-y: 0px;
@@ -115,7 +36,6 @@ body {
   margin-right: calc(var(--gutter-x) * -0.5);
   margin-top: calc(var(--gutter-y) * -1);
 }
-
 .row > * {
   padding-left: calc(var(--gutter-x) * 0.5);
   padding-right: calc(var(--gutter-x) * 0.5);
@@ -123,115 +43,91 @@ body {
   width: 100%;
 }
 
+// some predefined gutter class
 .gutter-x-0 {
   --gutter-x: 0px;
 }
-
 .gutter-y-0 {
   --gutter-y: 0px;
 }
-
 .gutter-x-10 {
   --gutter-x: 10px;
 }
-
 .gutter-y-10 {
   --gutter-y: 10px;
 }
-
 .gutter-x-20 {
   --gutter-x: 20px;
 }
-
 .gutter-y-20 {
   --gutter-y: 20px;
 }
-
 .gutter-x-22 {
   --gutter-x: 22px;
 }
-
 .gutter-y-22 {
   --gutter-y: 22px;
 }
-
 .gutter-x-24 {
   --gutter-x: 24px;
 }
-
 .gutter-y-24 {
   --gutter-y: 24px;
 }
-
 .gutter-x-30 {
   --gutter-x: 30px;
 }
-
 .gutter-y-30 {
   --gutter-y: 30px;
 }
-
 .gutter-x-60 {
   --gutter-x: 6rem;
 }
-
 .gutter-y-60 {
   --gutter-y: 6rem;
 }
-
+// Static column
 .col-auto {
   flex: 0 0 auto;
   width: auto;
 }
-
 .col-1 {
   width: 8.333%;
 }
-
 .col-2 {
   width: 16.667%;
 }
-
 .col-3 {
   width: 25%;
 }
-
 .col-4 {
   width: 33.333%;
 }
-
 .col-5 {
   width: 41.667%;
 }
-
 .col-6 {
   width: 50%;
 }
-
 .col-7 {
   width: 58.333%;
 }
-
 .col-8 {
   width: 66.667%;
 }
-
 .col-9 {
   width: 75%;
 }
-
 .col-10 {
   width: 83.333%;
 }
-
 .col-11 {
   width: 91.667%;
 }
-
 .col-12 {
   width: 100%;
 }
-
+//--------------------responsive screen xs(480px and upper)
 @media (min-width: 480px) {
   .col-xs-1 {
     width: 8.333%;
@@ -270,6 +166,7 @@ body {
     width: 100%;
   }
 }
+//--------------------responsive screen sm(576px and upper)
 @media (min-width: 576px) {
   .col-sm-1 {
     width: 8.333%;
@@ -308,6 +205,7 @@ body {
     width: 100%;
   }
 }
+//-------------------- responsive screen md(768px and upper)
 @media (min-width: 768px) {
   .col-md-1 {
     width: 8.333%;
@@ -346,6 +244,7 @@ body {
     width: 100%;
   }
 }
+//-------------------- responsive screen lg(992px and upper)
 @media (min-width: 992px) {
   .col-lg-1 {
     width: 8.333%;
@@ -388,6 +287,7 @@ body {
     width: auto;
   }
 }
+//-------------------- responsive screen xl(1200px and upper)
 @media (min-width: 1200px) {
   .col-xl-auto {
     width: auto;
@@ -434,6 +334,7 @@ body {
     width: auto;
   }
 }
+//---------------------- xxl
 @media (min-width: 1400px) {
   .col-xxl-1 {
     width: 8.333%;
@@ -472,5 +373,3 @@ body {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
