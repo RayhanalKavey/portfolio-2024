@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-2024",
+  "version": "1.0.0",
+  "description": "RAK portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch app/scss/main.scss app/css/style.css"
+  },
+  "author": "Rayhan Al Kavey",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.3"
+  }
+}
