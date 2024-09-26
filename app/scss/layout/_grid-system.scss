@@ -6,7 +6,9 @@
 .align-items-center {
   align-items: center;
 }
-
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .row {
   --gutter-x: 24px;
   --gutter-y: 0px;
@@ -47,6 +49,9 @@
 }
 .gutter-y-22 {
   --gutter-y: 22px;
+}
+.gutter-y-24 {
+  --gutter-y: 24px;
 }
 .gutter-x-24 {
   --gutter-x: 24px;

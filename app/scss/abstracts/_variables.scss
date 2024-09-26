@@ -3,7 +3,7 @@
    =========*/
 $c-primary: #22223b;
 $c-primary-v2: #4a4e69;
-$c-secondary: #9a8c98;
+$c-secondary: rgba(154, 140, 152, 0.5);
 $c-secondary-v2: #c9ada7;
 $c-tertiary: #f2e9e4;
 $c-black: #000;
@@ -29,6 +29,7 @@ $border-primary: 1px solid rgba($c-tertiary, 0.4);
 
 $btn-shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.2);
 $btn-shadow-dark-v2: 0 5px 10px rgba(0, 0, 0, 0.2);
+$btn-shadow-light: 0 0.5rem 1rem $c-secondary;
 $card-shadow: 0 1.5rem 4rem rgba($c-black, 0.15);
 
 /* =========

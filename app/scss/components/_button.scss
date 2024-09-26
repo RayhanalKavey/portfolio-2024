@@ -5,29 +5,64 @@
     font-size: $btn-font-size;
     font-weight: 500;
     text-transform: uppercase;
-    text-decoration: none;
     cursor: pointer;
-    border-radius: $border-btn;
+
     transition: transform 0.2s;
     display: inline-block;
   }
   &--main {
+    border-radius: $border-btn;
+    text-decoration: none;
     padding: 1rem 2rem;
     background-color: $c-tertiary;
     color: $c-primary;
+    &:hover {
+      transform: translateY(-0.3rem);
+      box-shadow: $btn-shadow-dark;
+    }
+    &:active {
+      transform: translateY(-0.1rem);
+      box-shadow: $btn-shadow-dark-v2;
+    }
   }
   &--outline {
+    border-radius: $border-btn;
+    text-decoration: none;
     background-color: transparent;
     color: $c-tertiary;
     border: 1px solid $c-tertiary;
     padding: 0.9rem 1.9rem;
+    &:hover {
+      transform: translateY(-0.3rem);
+      box-shadow: $btn-shadow-dark;
+    }
+    &:active {
+      transform: translateY(-0.1rem);
+      box-shadow: $btn-shadow-dark-v2;
+    }
   }
-  &:hover {
-    transform: translateY(-0.3rem);
-    box-shadow: $btn-shadow-dark;
-  }
-  &:active {
-    transform: translateY(-0.1rem);
-    box-shadow: $btn-shadow-dark-v2;
+  &--text {
+    text-decoration: none;
+    color: $c-tertiary;
+
+    .text {
+      display: inline-block;
+      border-bottom: $border-primary;
+      padding-bottom: 1px;
+    }
+    .text-icon {
+      margin-left: 2px;
+      transition: all 0.3s;
+    }
+    &:hover {
+      transform: translateY(-0.3rem);
+      .text-icon {
+        display: inline-block;
+        margin-left: 4px;
+      }
+    }
+    &:active {
+      transform: translateY(-0.1rem);
+    }
   }
 }

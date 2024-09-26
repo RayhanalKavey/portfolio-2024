@@ -6,8 +6,7 @@
   align-items: center;
   font-size: 1.6rem;
   padding: 2.6rem 0;
-  @include media(xl) {
-  }
+
   &__logo {
   }
   &__links {
@@ -19,6 +18,7 @@
     border-radius: 50px;
     background-color: transparent;
     backdrop-filter: blur(20px);
+    box-shadow: $btn-shadow-light;
     a {
       color: $c-tertiary;
       text-decoration: none;
@@ -27,9 +27,5 @@
       padding-right: 1.5rem;
       border-right: $border-primary;
     }
-  }
-}
-.btn {
-  &--main {
   }
 }

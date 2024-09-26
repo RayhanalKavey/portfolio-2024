@@ -1,0 +1,39 @@
+[
+  {
+    "projectCategory_id": "01",
+    "projectCategory": "React and MongoDb",
+    "projectName": "Laptop Utopia",
+    "projectTitle": "A laptop resell website",
+    "img": "https://i.ibb.co/sC1Ks3m/Laptop-Utopia.png",
+    "details": [
+      "Online booking for reselling products, all the generated data integrated with the backend. Stripe payment method implemented in this project",
+      "Buyers and sellers are controlled with a private route, specific user route, and JWT token",
+      "Technologies used are MongoDB, React, Tailwind, DaisyUI, and firebase authentication"
+    ]
+  },
+  {
+    "projectCategory_id": "02",
+    "projectCategory": "Tailwind CSS",
+    "projectName": "Photo Bizz",
+    "projectTitle": "A service provider's website",
+    "img": "https://i.ibb.co/r5H1xSN/Photo-Bizz.png",
+    "details": [
+      "Responsive website, where customers can review from the service details page and can see his/her own review as well as another customer review for individual service",
+      "Customers' own reviews are displayed in a specific route, and the customer can modify it. Data is stored in the backend and protected by a JWT token",
+      "MongoDB, React, Tailwind, DaisyUI, and firebase authentication systems like Email Password, Google, and GitHub login integrated in this project"
+    ]
+  },
+
+  {
+    "projectCategory_id": "03",
+    "projectCategory": "BootStrap",
+    "projectName": "React Guideline",
+    "projectTitle": "A online learning website",
+    "img": "https://i.ibb.co/5nfRytr/Complete-React-Guidline.png",
+    "details": [
+      "An online tutorial website where react routing system is the main focus",
+      "Build with React, React Bootstrap, Bootstrap, and Firebase authentication systems like Google, GitHub, and Email login implemented",
+      "Packages like React Router, React Icons, React Hot Toast, and React to Print were used in this project"
+    ]
+  }
+]
