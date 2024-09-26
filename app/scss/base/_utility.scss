@@ -1,0 +1,73 @@
+@use "../abstracts" as *;
+// .container {
+//   padding-left: 12px;
+//   padding-right: 12px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   @media (min-width: 576px) {
+//     max-width: 540px;
+//   }
+//   @media (min-width: 768px) {
+//     max-width: 720px;
+//   }
+//   @media (min-width: 992px) {
+//     max-width: 980px;
+//   }
+//   @media (min-width: 1200px) {
+//     max-width: 1140px;
+//   }
+//   @media (min-width: 1400px) {
+//     max-width: 1194px;
+//   }
+// }
+
+.container {
+  padding-inline: 5rem;
+}
+.container-10 {
+  padding-inline: 0.5rem;
+}
+//Padding
+.section-padding-100 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.section-padding-top-100 {
+  padding-top: 10rem;
+}
+.section-padding-bottom-100 {
+  padding-bottom: 10rem;
+}
+.pb-40 {
+  margin-bottom: 4rem;
+}
+.pb-50 {
+  margin-bottom: 5rem;
+}
+
+// Margin
+.mb-50 {
+  margin-bottom: 5rem;
+}
+// align self
+.align-self-start {
+  align-self: flex-start;
+}
+.align-self-center {
+  align-self: flex-center;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+// text align
+.text-align-center {
+  text-align: center;
+}
+// align items
+.align-items-center {
+  align-items: center;
+}
+// border
+.border-right-primary {
+  border-right: $border-primary;
+}

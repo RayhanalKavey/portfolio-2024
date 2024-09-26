@@ -6,7 +6,6 @@
   align-items: center;
   font-size: 1.6rem;
   padding: 2.6rem 0;
-
   @include media(xl) {
   }
   &__logo {
@@ -20,6 +19,10 @@
     border-radius: 50px;
     background-color: transparent;
     backdrop-filter: blur(20px);
+    a {
+      color: $c-tertiary;
+      text-decoration: none;
+    }
     & > *:not(:last-child) {
       padding-right: 1.5rem;
       border-right: $border-primary;
