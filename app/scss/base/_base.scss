@@ -18,10 +18,12 @@ html {
 }
 body {
   font-family: $font-family;
-  font-weight: $base-font-weight;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  color: $c-text-dark;
+  font-style: normal;
+  font-weight: $font-weight-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $c-text-tertiary;
   padding: 3rem;
+  background-color: $c-primary;
   box-sizing: border-box;
 }

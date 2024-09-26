@@ -1,0 +1,32 @@
+@use "../abstracts" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 2.6rem 0;
+
+  @include media(xl) {
+  }
+  &__logo {
+  }
+  &__links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    & > *:not(:last-child) {
+      padding-right: 1.5rem;
+      border-right: $border-primary;
+    }
+  }
+}
+.btn {
+  &--main {
+  }
+}
