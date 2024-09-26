@@ -9,6 +9,12 @@
 }
 html {
   font-size: 62.5%;
+  /* 
+  Why 62.5%?
+   - Browser root font size 16 pixel. Now we will set font-size: 10px; for easy calculation.
+   - We set it as a % value, because then it will take it's parent font size as the reference, which is browser's default 16px.
+   - if we set font-size: 10px then browser's 16px will be replaced by 10. So user lost the flexibility of changing it. Like zoom in and out of the browser will have no effect.
+   */
 }
 body {
   font-family: $font-family;

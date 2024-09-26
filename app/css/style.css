@@ -34,6 +34,25 @@
     transform: translate(0);
   }
 }
+/* 
+===================
+Manage Media Query
+==================== 
+Break points:
+- 480  = xs 
+- 576 = sm
+- 768 = md
+- 992 = lg
+- 1200 = xl
+- 1400px = xxl
+Note:
+- Build with min-width to follow html,css, and framework bootstrap and tailwind.
+- Apply over 480 and 480
+- Media query unit does not effected by the base font setup which is 62.5% in my case. 
+- It is always related to the browser root font size, 16px. 
+- Most of the browser em unit works properly(1em = 16px). So we use em unit for media query.
+- 600px/16px = 37.5 em
+*/
 /* color */
 /* font */
 *,
@@ -47,6 +66,12 @@
 
 html {
   font-size: 62.5%;
+  /* 
+  Why 62.5%?
+   - Browser root font size 16 pixel. Now we will set font-size: 10px; for easy calculation.
+   - We set it as a % value, because then it will take it's parent font size as the reference, which is browser's default 16px.
+   - if we set font-size: 10px then browser's 16px will be replaced by 10. So user lost the flexibility of changing it. Like zoom in and out of the browser will have no effect.
+   */
 }
 
 body {
@@ -66,6 +91,23 @@ body {
   margin-bottom: 3rem;
 }
 
+.navbar {
+  background-color: aqua;
+}
+.navbar__links {
+  font-size: 1.6rem;
+  list-style: none;
+}
+@media (min-width: 75em) {
+  .navbar__links {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 87.5em) {
+  .navbar__links {
+    font-size: 2rem;
+  }
+}
 .justify-content-center {
   justify-content: center;
 }

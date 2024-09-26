@@ -1,10 +1,20 @@
 @use "../abstracts" as *;
 
 .navbar {
+  background-color: aqua;
   &__logo {
   }
   &__links {
+    font-size: 1.6rem;
+    list-style: none;
+    @include media(xl) {
+      font-size: 2rem;
+    }
   }
   &__link {
+  }
+}
+.btn {
+  &--main {
   }
 }
