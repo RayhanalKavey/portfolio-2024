@@ -49,20 +49,19 @@
       display: inline-block;
       border-bottom: $border-primary;
       padding-bottom: 1px;
+      font-size: 1.2rem;
     }
     .text-icon {
       margin-left: 2px;
       transition: all 0.3s;
+      font-size: 1.2rem;
     }
     &:hover {
-      transform: translateY(-0.3rem);
       .text-icon {
+        transform: rotate(-15deg);
         display: inline-block;
         margin-left: 4px;
       }
-    }
-    &:active {
-      transform: translateY(-0.1rem);
     }
   }
 }

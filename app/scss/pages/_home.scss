@@ -66,3 +66,19 @@ header {
     max-width: 66%;
   }
 }
+/*=============
+  Blog section
+  =============*/
+.section-blog {
+  &__text-box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &__text-content {
+    max-width: 60%;
+  }
+  .paragraph {
+    max-width: 66%;
+  }
+}
