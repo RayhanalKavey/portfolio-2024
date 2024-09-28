@@ -247,7 +247,7 @@ body {
   display: inline-block;
   border-bottom: 1px solid rgba(242, 233, 228, 0.4);
   padding-bottom: 1px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .btn--text .text-icon {
   margin-left: 2px;
@@ -255,7 +255,7 @@ body {
   font-size: 1.2rem;
 }
 .btn--text:hover .text-icon {
-  transform: rotate(-15deg);
+  transform: rotate(-20deg);
   display: inline-block;
   margin-left: 4px;
 }
@@ -347,6 +347,9 @@ header {
   margin-right: 2rem;
 }
 
+/*=============
+  Projects section
+  =============*/
 .section-projects {
   background-color: #4a4e69;
   border-radius: 10px;
@@ -376,6 +379,72 @@ header {
 }
 .section-blog .paragraph {
   max-width: 66%;
+}
+
+/*=============
+  Footer section
+  =============*/
+.section-footer {
+  background-color: #4a4e69;
+  border-radius: 10px;
+}
+.section-footer__heading {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.section-footer__news-box {
+  margin-bottom: 1.6rem;
+}
+.section-footer__news-box:not(:last-child) {
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid rgba(242, 233, 228, 0.4);
+}
+.section-footer__social-icons {
+  justify-content: start;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.section-footer__social-icon {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #f2e9e4;
+}
+.section-footer__title {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.section-footer__contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 1.6rem;
+}
+.section-footer__contact-info:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.section-footer i {
+  font-size: 1.6rem;
+  color: #f2e9e4;
+}
+.section-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.6rem;
+  padding-bottom: 2.6rem;
+  margin-top: 2.6rem;
+  border-top: 1px solid rgba(242, 233, 228, 0.4);
+}
+.section-footer__policy-terms {
+  display: flex;
+  column-gap: 2rem;
+}
+.section-footer__links {
+  display: inline-block;
+  text-decoration: none;
+  color: #f2e9e4;
 }
 
 .navbar {

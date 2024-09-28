@@ -49,7 +49,7 @@
       display: inline-block;
       border-bottom: $border-primary;
       padding-bottom: 1px;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
     .text-icon {
       margin-left: 2px;
@@ -58,7 +58,7 @@
     }
     &:hover {
       .text-icon {
-        transform: rotate(-15deg);
+        transform: rotate(-20deg);
         display: inline-block;
         margin-left: 4px;
       }

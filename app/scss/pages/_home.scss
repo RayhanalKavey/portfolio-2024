@@ -51,6 +51,9 @@ header {
     }
   }
 }
+/*=============
+  Projects section
+  =============*/
 .section-projects {
   background-color: $c-primary-v2;
   border-radius: $border-radius-base;
@@ -80,5 +83,81 @@ header {
   }
   .paragraph {
     max-width: 66%;
+  }
+}
+
+/*=============
+  Footer section
+  =============*/
+.section-footer {
+  background-color: $c-primary-v2;
+  border-radius: $border-radius-base;
+
+  &__heading {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  // Latest news
+  &__news-box {
+    margin-bottom: 1.6rem;
+    &:not(:last-child) {
+      padding-bottom: 1.6rem;
+      border-bottom: $border-primary;
+    }
+  }
+  &__social-icons {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  &__social-icon {
+    font-size: 2rem;
+    text-decoration: none;
+    color: $c-tertiary;
+  }
+  &__date {
+  }
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  // Contact
+  &__contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 1.6rem;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+  i {
+    font-size: 1.6rem;
+    color: $c-tertiary;
+  }
+  &__desciption {
+  }
+  // Bottom part
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+    margin-top: 2.6rem;
+    border-top: $border-primary;
+  }
+  &__copyright {
+  }
+  &__policy-terms {
+    display: flex;
+    column-gap: 2rem;
+  }
+  &__links {
+    display: inline-block;
+    text-decoration: none;
+    color: $c-text-tertiary;
   }
 }
