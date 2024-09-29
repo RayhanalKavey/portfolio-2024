@@ -44,14 +44,14 @@
           <li class="navber__link"><a href="#">Home</a></li>
           <li class="navber__link"><a href="#about">About</a></li>
           <li class="navber__link"><a href="#">Service</a></li>
-          <li class="navber__link"><a href="#">Projects</a></li>
-          <li class="navber__link"><a href="#">Blog</a></li>
+          <li class="navber__link"><a href="#projects">Projects</a></li>
+          <li class="navber__link"><a href="#blog">Blog</a></li>
           <li class="navber__link"><a href="#">Product</a></li>
           <li class="navber__link"><a href="#">Pricing</a></li>
           <li class="navber__link"><a href="#">Resume</a></li>
           <li class="navber__link"><a href="#">Testimonial</a></li>
         </ul>
-        <a href="#" class="btn btn--main">Get in touch</a>
+        <a href="#contact" class="btn btn--main">Get in touch</a>
       </nav>
       <!-- =============
        Section Hero
@@ -141,14 +141,14 @@
      Section projects 
 =================-->
 
-      <section class="section-projects container section-padding-100">
+      <section
+        id="projects"
+        class="section-projects container section-padding-bottom-50">
         <div class="section-projects__text-box mb-50">
           <div class="section-projects__text-content">
             <h2 class="heading-secondary mb-20">Take A Look At My Projects</h2>
             <p class="paragraph">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio,
-              nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cum, eveniet.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, .
             </p>
             <div class="section-projects__links">
               <a href="#" class="btn btn--outline section-projects__link"
@@ -291,7 +291,7 @@
       <!-- =============
            Blog section
            =============-->
-      <section class="section-blog section-padding-100">
+      <section id="blog" class="section-blog section-padding-100">
         <div class="section-blog__text-box mb-50">
           <div class="section-blog__text-content">
             <h2 class="heading-secondary mb-20">
@@ -388,11 +388,96 @@
           </div>
         </div>
       </section>
+      <!-- =============
+           Contact section
+           =============-->
+      <section id="contact" class="section-contact section-padding-top-20">
+        <h2 class="heading-secondary mb-50 text-align-center">
+          Let’s Get to Work
+        </h2>
+        <div class="row align-items-start">
+          <div class="col-12 col-lg-6 align-self-center">
+            <div class="section-contact__feature-box">
+              <i class="section-contact__icon fa-solid fa-pen-to-square"></i>
+              <div class="section-contact__feature">
+                <div class="section-contact__topic">Easy Customization</div>
+                <div class="section-contact__description">
+                  Depending on your needs you can change the product easily in
+                  the way you want from the layout to look in no time.
+                </div>
+              </div>
+            </div>
+            <div class="section-contact__feature-box">
+              <i class="section-contact__icon fa-solid fa-pen"></i>
+              <div class="section-contact__feature">
+                <div class="section-contact__topic">Pixel Perfect</div>
+                <div class="section-contact__description">
+                  My design is powerfully useful. You can easily use one design
+                  for various purposes. Clean, minimalist designs that do not
+                  sacrifice number of features.
+                </div>
+              </div>
+            </div>
+            <div class="section-contact__feature-box">
+              <i class="section-contact__icon fa-solid fa-pager"></i>
+              <div class="section-contact__feature">
+                <div class="section-contact__topic">Fully Responsive</div>
+                <div class="section-contact__description">
+                  You can use products in all type of devices whether it is a
+                  tablet, mobile or desktop the size does not matter.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 align-self-center">
+            <form action="" class="form">
+              <!-- Name -->
+              <div class="form__input-box">
+                <input
+                  class="form__input"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Name" />
+                <!-- <i class="fa-solid fa-signature"></i> -->
+                <i class="form__icon fa-solid fa-file-signature"></i>
+              </div>
+              <!-- Email -->
+              <div class="form__input-box">
+                <input
+                  class="form__input"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Email"
+                  required />
+                <i class="form__icon fa-solid fa-envelope"></i>
+              </div>
+              <!-- Text area -->
+              <div class="form__input-box">
+                <textarea
+                  class="form__text-area"
+                  name=""
+                  id=""
+                  rows="7"
+                  placeholder="Tell me what you are thinking!"></textarea>
+                <i class="form__icon fa-solid fa-message"></i>
+              </div>
+              <button type="submit" class="btn btn--submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- ==============
+     Faq section
+    =================-->
+    <section class="section-faq section-padding-100"></section>
     <!-- ======== 
     Footer
     ==========-->
-    <footer class="section-footer container section-padding-top-100">
+    <footer class="section-footer container section-padding-top-50">
       <div class="section-footer__top">
         <div class="row">
           <div class="col-12 col-lg-4">
