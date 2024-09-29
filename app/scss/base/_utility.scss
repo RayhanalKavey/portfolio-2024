@@ -58,6 +58,9 @@
 .mb-20 {
   margin-bottom: 2rem;
 }
+.mb-30 {
+  margin-bottom: 3rem;
+}
 .mb-50 {
   margin-bottom: 5rem;
 }
@@ -122,3 +125,17 @@
   // backdrop-filter: blur(20px);
   z-index: 3;
 }
+// .d-none {
+//   height: 0;
+//   overflow: hidden;
+//   margin: 0;
+// }
+.d-none {
+  display: none;
+  opacity: 0;
+  height: 0;
+}
+// .d-block {
+//   height: auto;
+//   opacity: 1;
+// }

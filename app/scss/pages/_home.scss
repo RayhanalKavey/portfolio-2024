@@ -81,9 +81,6 @@ header {
   &__text-content {
     max-width: 60%;
   }
-  .paragraph {
-    max-width: 66%;
-  }
 }
 
 /*=============
@@ -161,9 +158,39 @@ header {
 }
 
 /*=============
+    FAQ section
+    =============*/
+.section-faq {
+  &__faq-items {
+    padding: 1rem 2rem;
+    border: $border-primary;
+    border-radius: $border-radius-base;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+  &__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  &__description {
+    transition: all 0.5s;
+    // transition: height 0.5s ease, opacity 0.5s ease;
+    border-top: $border-primary;
+    padding-top: 0.8rem;
+    margin-top: 0.8rem;
+  }
+}
+/*=============
     Contact section
     =============*/
 .section-contact {
+  background-color: $c-primary-v2;
+  border-radius: $border-radius-base;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
   &__feature-box {
     display: flex;
     column-gap: 2rem;
@@ -184,7 +211,5 @@ header {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 0.8rem;
-  }
-  &__description {
   }
 }
