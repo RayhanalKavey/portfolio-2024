@@ -27,49 +27,42 @@
 .container-10 {
   padding-inline: 0.5rem;
 }
-//Padding
-.section-padding-100 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-.section-padding-top-20 {
-  padding-top: 2rem;
-}
-.section-padding-top-50 {
-  padding-top: 5rem;
-}
-.section-padding-top-100 {
-  padding-top: 10rem;
-}
-.section-padding-bottom-50 {
-  padding-bottom: 5rem;
-}
-.section-padding-bottom-100 {
-  padding-bottom: 10rem;
-}
-.pb-40 {
-  margin-bottom: 4rem;
-}
-.pb-50 {
-  margin-bottom: 5rem;
+
+//Paddings
+@for $size from 0rem through 100rem {
+  //Padding
+  .p-#{$size} {
+    padding: $size;
+  }
+  .pt-#{$size} {
+    padding-top: $size;
+  }
+  .pb-#{$size} {
+    padding-bottom: $size;
+  }
+  //Section padding
+  .sp-#{$size} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+  .spt-#{$size} {
+    padding-top: $size;
+  }
+  .spb-#{$size} {
+    padding-bottom: $size;
+  }
+  //Margin
+  .m-#{$size} {
+    margin: $size;
+  }
+  .mt-#{$size} {
+    margin-top: $size;
+  }
+  .mb-#{$size} {
+    margin-bottom: $size;
+  }
 }
 
-// Margin
-.mb-20 {
-  margin-bottom: 2rem;
-}
-.mb-30 {
-  margin-bottom: 3rem;
-}
-.mb-50 {
-  margin-bottom: 5rem;
-}
-.mb-70 {
-  margin-bottom: 7rem;
-}
-.mb-100 {
-  margin-bottom: 10rem;
-}
 // align self
 .align-self-start {
   align-self: flex-start;
