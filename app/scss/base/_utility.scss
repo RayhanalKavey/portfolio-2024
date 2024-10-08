@@ -29,48 +29,6 @@
 }
 
 /*================
-align self
-=================*/
-.align-self-start {
-  align-self: flex-start;
-}
-.align-self-center {
-  align-self: flex-center;
-}
-.align-self-end {
-  align-self: flex-end;
-}
-/*================
-justify self
-=================*/
-.justify-self-start {
-  justify-self: flex-start;
-}
-.justify-self-center {
-  justify-self: flex-center;
-}
-.justify-self-end {
-  justify-self: flex-end;
-}
-/*================
-text align
-=================*/
-.text-align-center {
-  text-align: center;
-}
-/*================
-align items
-=================*/
-.align-items-start {
-  align-items: start;
-}
-.align-items-center {
-  align-items: center;
-}
-.align-items-end {
-  align-items: end;
-}
-/*================
 border
 =================*/
 .border-right-primary {
@@ -97,30 +55,6 @@ position
   background-color: inherit;
   z-index: 2;
 }
-.position-fixed {
-  // position: fixed;
-  top: 0;
-  // left: 0;
-  // right: 0;
-  // background-color: $c-secondary;
-  // backdrop-filter: blur(20px);
-  z-index: 3;
-}
-// .d-none {
-//   height: 0;
-//   overflow: hidden;
-//   margin: 0;
-// }
-.d-none {
-  display: none;
-  opacity: 0;
-  height: 0;
-}
-// .d-block {
-//   height: auto;
-//   opacity: 1;
-// }
-
 /*====================
 Screen Based Utility Classes for:-
 Margin, Paddings, and Section Padding
@@ -158,6 +92,33 @@ Margin, Paddings, and Section Padding
   .mb-#{$size} {
     margin-bottom: $size;
   }
+  // Width
+  .w-full {
+    width: 100%;
+  }
+  .w-#{$size} {
+    width: $size;
+  }
+  .max-w-#{$size} {
+    max-width: $size;
+  }
+  .min-w-#{$size} {
+    min-width: $size;
+  }
+  //height
+  .h-full {
+    height: 100%;
+  }
+  .h-#{$size} {
+    height: $size;
+  }
+  .max-h-#{$size} {
+    max-height: $size;
+  }
+  .min-h-#{$size} {
+    min-height: $size;
+  }
+
   // screen based classes
   @each $breakpoint-name, $breakpoint-size in $breakpoints {
     @include respond-to($breakpoint-name) {
@@ -165,20 +126,20 @@ Margin, Paddings, and Section Padding
       .m-#{$size} {
         margin: $size;
       }
-      .mt-#{$breakpoint-name}-#{$size} {
+      .#{$breakpoint-name}-mt-#{$size} {
         margin-top: $size;
       }
-      .mb-#{$breakpoint-name}-#{$size} {
+      .#{$breakpoint-name}-mb-#{$size} {
         margin-bottom: $size;
       }
       //Padding
       .p-#{$size} {
         padding: $size;
       }
-      .pt-#{$breakpoint-name}-#{$size} {
+      .#{$breakpoint-name}-pt-#{$size} {
         padding-top: $size;
       }
-      .pb-#{$breakpoint-name}-#{$size} {
+      .#{$breakpoint-name}-pb-#{$size} {
         padding-bottom: $size;
       }
       //Section padding
@@ -186,13 +147,115 @@ Margin, Paddings, and Section Padding
         padding-top: $size;
         padding-bottom: $size;
       }
-      .spt-#{$breakpoint-name}-#{$size} {
+      .#{$breakpoint-name}-spt-#{$size} {
         padding-top: $size;
       }
-      .spb-#{$breakpoint-name}-#{$size} {
+      .#{$breakpoint-name}-spb-#{$size} {
         padding-bottom: $size;
+      }
+      // width
+      .w-#{$size} {
+        width: $size;
+      }
+      .#{$breakpoint-name}-max-w-#{$size} {
+        max-width: $size;
+      }
+      .#{$breakpoint-name}-min-w-#{$size} {
+        min-width: $size;
+      }
+      //height
+      .h-#{$size} {
+        height: $size;
+      }
+      .#{$breakpoint-name}-max-h-#{$size} {
+        max-height: $size;
+      }
+      .#{$breakpoint-name}-min-h-#{$size} {
+        min-height: $size;
       }
     }
   }
 }
 /* End Screen Based Utility Classes  */
+/*=====================================================
+align self || justify self || align items || justify content || text align
+=======================================================*/
+.align-self-start {
+  align-self: flex-start;
+}
+.align-self-center {
+  align-self: flex-center;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+// -------Justify self
+.justify-self-start {
+  justify-self: flex-start;
+}
+.justify-self-center {
+  justify-self: flex-center;
+}
+.justify-self-end {
+  justify-self: flex-end;
+}
+// ---------align items
+
+.align-items-start {
+  align-items: start;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-end {
+  align-items: end;
+}
+// ----Justify content
+.justify-content-start {
+  justify-content: start;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: end;
+}
+
+///----text align
+
+.text-align-start {
+  text-align: start;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-end {
+  text-align: end;
+}
+@each $breakpoint-name, $breakpoint-size in $breakpoints {
+  $condition: (
+    "start": start,
+    "center": center,
+    "end": end,
+  );
+  @each $condition-name, $condition-value in $condition {
+    @include respond-to($breakpoint-name) {
+      .#{$breakpoint-name}-justify-self-#{ $condition-name} {
+        justify-self: flex-#{$condition-name};
+      }
+      .#{$breakpoint-name}-align-self-#{ $condition-name} {
+        align-self: flex-#{$condition-name};
+      }
+      .#{$breakpoint-name}-align-items-#{ $condition-name} {
+        align-items: #{$condition-name};
+      }
+      .#{$breakpoint-name}-justify-content-#{ $condition-name} {
+        justify-content: #{$condition-name};
+      }
+      .#{$breakpoint-name}-text-align-#{ $condition-name} {
+        text-align: #{$condition-name};
+      }
+    }
+  }
+}
+/* End -> align self || justify self || align items || text align*/

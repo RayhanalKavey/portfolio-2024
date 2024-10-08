@@ -19,7 +19,7 @@ Note:
 */
 
 /* =========
-Define Break points variable and media query mixin`
+Define Break Points Variable
 =========*/
 $breakpoints: (
   //480px  = xs
@@ -35,6 +35,9 @@ $breakpoints: (
   //1400px = xxl
   "xxl": 87.5em
 );
+/* =========
+  Media query mixin`
+  =========*/
 @mixin respond-to($defined-screen) {
   // Map breakpoints variable and get breakpoint(value) with exact screen name
   $breakpoint: map-get($breakpoints, $defined-screen);
