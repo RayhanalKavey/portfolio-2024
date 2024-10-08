@@ -21,8 +21,7 @@ header {
   align-items: center;
   text-align: center;
   row-gap: 6rem;
-  // margin-inline: 5rem;
-  @include media(lg) {
+  @include respond-to(lg) {
     text-align: start;
     align-items: start;
   }

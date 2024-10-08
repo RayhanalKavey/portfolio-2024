@@ -3,11 +3,11 @@
 Manage Media Query
 ==================== 
 Break points:
-- 480  = xs 
-- 576 = sm
-- 768 = md
-- 992 = lg
-- 1200 = xl
+- 480px  = xs 
+- 576px = sm
+- 768px = md
+- 992px = lg
+- 1200px = xl
 - 1400px = xxl
 Note:
 - Build with min-width to follow html,css, and framework bootstrap and tailwind.
@@ -17,41 +17,29 @@ Note:
 - Most of the browser em unit works properly(1em = 16px). So we use em unit for media query.
 - 600px/16px = 37.5 em
 */
-@mixin media($defined-screen) {
-  @if ($defined-screen == xs) {
-    //480  = xs
-    @media (min-width: 30em) {
-      @content;
-    }
-  }
-  @if ($defined-screen == sm) {
-    //576 = sm
-    @media (min-width: 36em) {
-      @content;
-    }
-  }
-  @if ($defined-screen == md) {
-    //768 = md
-    @media (min-width: 48em) {
-      @content;
-    }
-  }
-  @if ($defined-screen == lg) {
-    //992 = lg
-    @media (min-width: 62em) {
-      @content;
-    }
-  }
-  @if ($defined-screen == xl) {
-    //1200 = xl
-    @media (min-width: 75em) {
-      @content;
-    }
-  }
-  @if ($defined-screen == xl) {
-    //1400px = xxl
-    @media (min-width: 87.5em) {
-      @content;
-    }
+
+/* =========
+Define Break points variable and media query mixin`
+=========*/
+$breakpoints: (
+  //480px  = xs
+  "xs": 30em,
+  //576px = sm
+  "sm": 36em,
+  //768px = md
+  "md": 48em,
+  //992px = lg
+  "lg": 62em,
+  //1200px = xl
+  "xl": 75em,
+  //1400px = xxl
+  "xxl": 87.5em
+);
+@mixin respond-to($defined-screen) {
+  // Map breakpoints variable and get breakpoint(value) with exact screen name
+  $breakpoint: map-get($breakpoints, $defined-screen);
+  // Write classes in that screen size
+  @media (min-width: $breakpoint) {
+    @content;
   }
 }

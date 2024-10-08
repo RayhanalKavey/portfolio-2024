@@ -4,21 +4,21 @@
 //   padding-right: 12px;
 //   margin-left: auto;
 //   margin-right: auto;
-//   @media (min-width: 576px) {
-//     max-width: 540px;
-//   }
-//   @media (min-width: 768px) {
-//     max-width: 720px;
-//   }
-//   @media (min-width: 992px) {
-//     max-width: 980px;
-//   }
-//   @media (min-width: 1200px) {
-//     max-width: 1140px;
-//   }
-//   @media (min-width: 1400px) {
-//     max-width: 1194px;
-//   }
+// @media (min-width: 576px) {
+//   max-width: 540px;
+// }
+// @media (min-width: 768px) {
+//   max-width: 720px;
+// }
+// @media (min-width: 992px) {
+//   max-width: 980px;
+// }
+// @media (min-width: 1200px) {
+//   max-width: 1140px;
+// }
+// @media (min-width: 1400px) {
+//   max-width: 1194px;
+// }
 // }
 
 .container {
@@ -28,8 +28,105 @@
   padding-inline: 0.5rem;
 }
 
-//Paddings
-@for $size from 0rem through 100rem {
+/*================
+align self
+=================*/
+.align-self-start {
+  align-self: flex-start;
+}
+.align-self-center {
+  align-self: flex-center;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+/*================
+justify self
+=================*/
+.justify-self-start {
+  justify-self: flex-start;
+}
+.justify-self-center {
+  justify-self: flex-center;
+}
+.justify-self-end {
+  justify-self: flex-end;
+}
+/*================
+text align
+=================*/
+.text-align-center {
+  text-align: center;
+}
+/*================
+align items
+=================*/
+.align-items-start {
+  align-items: start;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-end {
+  align-items: end;
+}
+/*================
+border
+=================*/
+.border-right-primary {
+  border-right: $border-primary;
+}
+
+.image-reset {
+  border-radius: $border-radius-base;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/*================
+position
+=================*/
+.position-sticky-inherit {
+  position: sticky;
+  top: 0px;
+  background-color: inherit;
+  z-index: 2;
+}
+.position-fixed {
+  // position: fixed;
+  top: 0;
+  // left: 0;
+  // right: 0;
+  // background-color: $c-secondary;
+  // backdrop-filter: blur(20px);
+  z-index: 3;
+}
+// .d-none {
+//   height: 0;
+//   overflow: hidden;
+//   margin: 0;
+// }
+.d-none {
+  display: none;
+  opacity: 0;
+  height: 0;
+}
+// .d-block {
+//   height: auto;
+//   opacity: 1;
+// }
+
+/*====================
+Screen Based Utility Classes for:-
+Margin, Paddings, and Section Padding
+=====================*/
+@for $size from 0rem through 30rem {
+  // base class
   //Padding
   .p-#{$size} {
     padding: $size;
@@ -61,74 +158,41 @@
   .mb-#{$size} {
     margin-bottom: $size;
   }
-}
-
-// align self
-.align-self-start {
-  align-self: flex-start;
-}
-.align-self-center {
-  align-self: flex-center;
-}
-.align-self-end {
-  align-self: flex-end;
-}
-// text align
-.text-align-center {
-  text-align: center;
-}
-// align items
-.align-items-start {
-  align-items: start;
-}
-.align-items-center {
-  align-items: center;
-}
-.align-items-end {
-  align-items: end;
-}
-// border
-.border-right-primary {
-  border-right: $border-primary;
-}
-
-.image-reset {
-  border-radius: $border-radius-base;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  // screen based classes
+  @each $breakpoint-name, $breakpoint-size in $breakpoints {
+    @include respond-to($breakpoint-name) {
+      //Margin
+      .m-#{$size} {
+        margin: $size;
+      }
+      .mt-#{$breakpoint-name}-#{$size} {
+        margin-top: $size;
+      }
+      .mb-#{$breakpoint-name}-#{$size} {
+        margin-bottom: $size;
+      }
+      //Padding
+      .p-#{$size} {
+        padding: $size;
+      }
+      .pt-#{$breakpoint-name}-#{$size} {
+        padding-top: $size;
+      }
+      .pb-#{$breakpoint-name}-#{$size} {
+        padding-bottom: $size;
+      }
+      //Section padding
+      .sp-#{$size} {
+        padding-top: $size;
+        padding-bottom: $size;
+      }
+      .spt-#{$breakpoint-name}-#{$size} {
+        padding-top: $size;
+      }
+      .spb-#{$breakpoint-name}-#{$size} {
+        padding-bottom: $size;
+      }
+    }
   }
 }
-.position-sticky-inherit {
-  position: sticky;
-  top: 0px;
-  background-color: inherit;
-  z-index: 2;
-}
-.position-fixed {
-  // position: fixed;
-  top: 0;
-  // left: 0;
-  // right: 0;
-  // background-color: $c-secondary;
-  // backdrop-filter: blur(20px);
-  z-index: 3;
-}
-// .d-none {
-//   height: 0;
-//   overflow: hidden;
-//   margin: 0;
-// }
-.d-none {
-  display: none;
-  opacity: 0;
-  height: 0;
-}
-// .d-block {
-//   height: auto;
-//   opacity: 1;
-// }
+/* End Screen Based Utility Classes  */
