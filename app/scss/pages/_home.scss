@@ -44,10 +44,17 @@ header {
 }
 .section-working {
   .row {
-    padding-inline: 20rem;
-    & > *:not(:last-child) {
-      border-right: $border-primary;
-      margin-right: 2rem;
+    // padding-inline: 20rem;
+    // & > *:not(:last-child) {
+    //   border-right: $border-primary;
+    //   margin-right: 2rem;
+    // }
+
+    @include respond-to(md) {
+      & > *:not(:last-child) {
+        border-right: $border-primary;
+        margin-right: 2rem;
+      }
     }
   }
 }

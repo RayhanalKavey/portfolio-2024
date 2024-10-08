@@ -57,9 +57,9 @@ position
 }
 /*====================
 Screen Based Utility Classes for:-
-Margin, Paddings, and Section Padding
+Margin, Paddings,Section Padding, width, and height 
 =====================*/
-@for $size from 0rem through 30rem {
+@for $size from 0rem through 15rem {
   // base class
   //Padding
   .p-#{$size} {
