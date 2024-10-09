@@ -22,7 +22,7 @@
 // }
 
 .container {
-  padding-inline: 5rem;
+  padding-inline: 4rem;
 }
 .container-10 {
   padding-inline: 0.5rem;
@@ -61,6 +61,10 @@ Margin, Paddings,Section Padding, width, and height
 =====================*/
 @for $size from 0rem through 15rem {
   // base class
+  //container
+  .container-#{$size} {
+    padding-inline: $size;
+  }
   //Padding
   .p-#{$size} {
     padding: $size;
@@ -122,6 +126,10 @@ Margin, Paddings,Section Padding, width, and height
   // screen based classes
   @each $breakpoint-name, $breakpoint-size in $breakpoints {
     @include respond-to($breakpoint-name) {
+      //Container
+      .#{$breakpoint-name}-container-#{$size} {
+        padding-inline: $size;
+      }
       //Margin
       .m-#{$size} {
         margin: $size;

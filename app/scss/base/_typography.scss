@@ -8,13 +8,23 @@
 }
 
 .heading-primary {
-  font-size: 6rem;
   font-weight: 500;
   line-height: 1.4;
   &--meta {
     font-size: 3rem;
     margin-bottom: 2.5rem;
     display: inline-block;
+  }
+  font-size: 4.2rem;
+
+  @include respond-to(sm) {
+    font-size: 5rem;
+  }
+  @include respond-to(md) {
+    font-size: 5.6rem;
+  }
+  @include respond-to(lg) {
+    font-size: 6rem;
   }
 }
 .heading-meta {

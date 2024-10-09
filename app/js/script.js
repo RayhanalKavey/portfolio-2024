@@ -6,7 +6,7 @@ fetch(`../../public/projects.json`)
   .catch((error) => console.error(error));
 
 //FAQ
-const faqItems = document.querySelectorAll(".section-faq__faq-items");
+const faqItems = document.querySelectorAll(".section-faq__faq-item");
 
 faqItems.forEach((faqItem) => {
   const heading = faqItem.querySelector(".section-faq__heading");
@@ -15,18 +15,32 @@ faqItems.forEach((faqItem) => {
     const description = faqItem.querySelector(".section-faq__description");
 
     // Toggle between plus and minus icon
-    icon.classList.toggle("fa-plus");
-    icon.classList.toggle("fa-minus");
+    if (icon.classList.contains("fa-plus")) {
+      icon.classList.add("fa-minus");
+      icon.classList.remove("fa-plus");
+    } else {
+      icon.classList.remove("fa-minus");
+      icon.classList.add("fa-plus");
+    }
     // Toggle between description has or not
-    description.classList.toggle("d-none");
+    if (description.classList.contains("active")) {
+      description.classList.add("hide");
+      description.classList.remove("active");
+    } else {
+      description.classList.remove("hide");
+      description.classList.add("active");
+    }
 
     //Disable others
     faqItems.forEach((othersItem) => {
       const icon = othersItem.querySelector("i");
       const description = othersItem.querySelector(".section-faq__description");
       if (othersItem != faqItem) {
-        icon.classList.replace("fa-minus", "fa-plus");
-        description.classList.add("d-none");
+        icon.classList.remove("fa-minus");
+        icon.classList.add("fa-plus");
+
+        description.classList.add("hide");
+        description.classList.remove("active");
       }
     });
   });

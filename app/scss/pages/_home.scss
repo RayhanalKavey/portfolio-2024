@@ -11,14 +11,16 @@ header {
   background-position: center;
   border-radius: $border-radius-base;
 }
-
+/*=============
+   Section Hero
+  =============*/
 .section-hero {
   border-top: $border-primary;
   height: 70vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   row-gap: 6rem;
   @include respond-to(lg) {
@@ -26,7 +28,9 @@ header {
     align-items: start;
   }
 }
-
+/*=============
+   Section About
+  =============*/
 .section-about {
   &__intro {
   }
@@ -42,14 +46,11 @@ header {
     }
   }
 }
+/*=============
+   Section Working
+  =============*/
 .section-working {
   .row {
-    // padding-inline: 20rem;
-    // & > *:not(:last-child) {
-    //   border-right: $border-primary;
-    //   margin-right: 2rem;
-    // }
-
     @include respond-to(md) {
       & > *:not(:last-child) {
         border-right: $border-primary;
@@ -66,13 +67,24 @@ header {
   border-radius: $border-radius-base;
   &__text-box {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
     padding-top: 3rem;
     padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.4rem;
+    @include respond-to(md) {
+      text-align: start;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-direction: row;
+    }
   }
   &__text-content {
-    max-width: 60%;
+    max-width: 80%;
+    @include respond-to(md) {
+      max-width: 60%;
+    }
   }
 }
 /*=============
@@ -80,15 +92,106 @@ header {
   =============*/
 .section-blog {
   &__text-box {
+    // display: flex;
+    // align-items: flex-end;
+    // justify-content: space-between;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2.4rem;
+    @include respond-to(md) {
+      text-align: start;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-direction: row;
+    }
   }
+
   &__text-content {
     max-width: 60%;
   }
 }
+/*=============
+    Contact section
+    =============*/
+.section-contact {
+  background-color: $c-primary-v2;
+  border-radius: $border-radius-base;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  &__feature-box {
+    display: flex;
+    column-gap: 2rem;
+    &:not(:last-child) {
+      border-bottom: $border-primary;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__icon {
+    font-size: 1.6rem;
+    margin-top: 0.65rem;
+    display: inline-block;
+  }
+  &__feature {
+  }
+  &__topic {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+}
 
+/*=============
+    FAQ section
+    =============*/
+.section-faq {
+  &__faq-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  &__faq-item {
+    border: $border-primary;
+    border-radius: $border-radius-base;
+  }
+  &__heading {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  &__description {
+    transition: all 0.5s ease-in-out;
+  }
+  &__text-content {
+    border-top: $border-primary;
+    display: inline-block;
+    padding-inline: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    transition: all 0.4s ease-in-out;
+  }
+  .hide {
+    overflow: hidden; // other wise hidden text troubles when click other heading
+    max-height: 0;
+    opacity: 0;
+    .section-faq__text-content {
+      display: hidden;
+    }
+  }
+
+  // When active/open
+  .active {
+    max-height: 70rem;
+    opacity: 1;
+    .section-faq__text-content {
+      display: inline-block;
+    }
+  }
+}
 /*=============
   Footer section
   =============*/
@@ -97,15 +200,15 @@ header {
   border-radius: $border-radius-base;
 
   &__heading {
-    margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 1.6rem;
   }
   // Latest news
   &__news-box {
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.2rem;
     &:not(:last-child) {
-      padding-bottom: 1.6rem;
+      padding-bottom: 1.2rem;
       border-bottom: $border-primary;
     }
   }
@@ -113,7 +216,7 @@ header {
     justify-content: start;
     display: flex;
     align-items: center;
-    column-gap: 2rem;
+    column-gap: 1.5rem;
   }
   &__social-icon {
     font-size: 2rem;
@@ -160,62 +263,5 @@ header {
     display: inline-block;
     text-decoration: none;
     color: $c-text-tertiary;
-  }
-}
-
-/*=============
-    FAQ section
-    =============*/
-.section-faq {
-  &__faq-items {
-    padding: 1rem 2rem;
-    border: $border-primary;
-    border-radius: $border-radius-base;
-    &:not(:last-child) {
-      margin-bottom: 2rem;
-    }
-  }
-  &__heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-  }
-  &__description {
-    transition: all 0.5s;
-    // transition: height 0.5s ease, opacity 0.5s ease;
-    border-top: $border-primary;
-    padding-top: 0.8rem;
-    margin-top: 0.8rem;
-  }
-}
-/*=============
-    Contact section
-    =============*/
-.section-contact {
-  background-color: $c-primary-v2;
-  border-radius: $border-radius-base;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  &__feature-box {
-    display: flex;
-    column-gap: 2rem;
-    &:not(:last-child) {
-      border-bottom: $border-primary;
-      padding-bottom: 2rem;
-      margin-bottom: 2rem;
-    }
-  }
-  &__icon {
-    font-size: 1.6rem;
-    margin-top: 0.65rem;
-    display: inline-block;
-  }
-  &__feature {
-  }
-  &__topic {
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-bottom: 0.8rem;
   }
 }

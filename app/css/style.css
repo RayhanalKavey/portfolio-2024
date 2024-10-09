@@ -133,14 +133,29 @@ body {
 }
 
 .heading-primary {
-  font-size: 6rem;
   font-weight: 500;
   line-height: 1.4;
+  font-size: 4.2rem;
 }
 .heading-primary--meta {
   font-size: 3rem;
   margin-bottom: 2.5rem;
   display: inline-block;
+}
+@media (min-width: 36em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 48em) {
+  .heading-primary {
+    font-size: 5.6rem;
+  }
+}
+@media (min-width: 62em) {
+  .heading-primary {
+    font-size: 6rem;
+  }
 }
 
 .heading-meta {
@@ -154,7 +169,7 @@ body {
 }
 
 .container {
-  padding-inline: 5rem;
+  padding-inline: 4rem;
 }
 
 .container-10 {
@@ -194,6 +209,10 @@ position
 Screen Based Utility Classes for:-
 Margin, Paddings,Section Padding, width, and height 
 =====================*/
+.container-0rem {
+  padding-inline: 0rem;
+}
+
 .p-0rem {
   padding: 0rem;
 }
@@ -264,6 +283,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-0rem {
+    padding-inline: 0rem;
+  }
   .m-0rem {
     margin: 0rem;
   }
@@ -312,6 +334,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-0rem {
+    padding-inline: 0rem;
+  }
   .m-0rem {
     margin: 0rem;
   }
@@ -360,6 +385,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-0rem {
+    padding-inline: 0rem;
+  }
   .m-0rem {
     margin: 0rem;
   }
@@ -408,6 +436,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-0rem {
+    padding-inline: 0rem;
+  }
   .m-0rem {
     margin: 0rem;
   }
@@ -456,6 +487,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-0rem {
+    padding-inline: 0rem;
+  }
   .m-0rem {
     margin: 0rem;
   }
@@ -504,6 +538,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-0rem {
+    padding-inline: 0rem;
+  }
   .m-0rem {
     margin: 0rem;
   }
@@ -551,6 +588,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 0rem;
   }
 }
+.container-1rem {
+  padding-inline: 1rem;
+}
+
 .p-1rem {
   padding: 1rem;
 }
@@ -621,6 +662,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-1rem {
+    padding-inline: 1rem;
+  }
   .m-1rem {
     margin: 1rem;
   }
@@ -669,6 +713,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-1rem {
+    padding-inline: 1rem;
+  }
   .m-1rem {
     margin: 1rem;
   }
@@ -717,6 +764,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-1rem {
+    padding-inline: 1rem;
+  }
   .m-1rem {
     margin: 1rem;
   }
@@ -765,6 +815,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-1rem {
+    padding-inline: 1rem;
+  }
   .m-1rem {
     margin: 1rem;
   }
@@ -813,6 +866,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-1rem {
+    padding-inline: 1rem;
+  }
   .m-1rem {
     margin: 1rem;
   }
@@ -861,6 +917,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-1rem {
+    padding-inline: 1rem;
+  }
   .m-1rem {
     margin: 1rem;
   }
@@ -908,6 +967,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 1rem;
   }
 }
+.container-2rem {
+  padding-inline: 2rem;
+}
+
 .p-2rem {
   padding: 2rem;
 }
@@ -978,6 +1041,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-2rem {
+    padding-inline: 2rem;
+  }
   .m-2rem {
     margin: 2rem;
   }
@@ -1026,6 +1092,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-2rem {
+    padding-inline: 2rem;
+  }
   .m-2rem {
     margin: 2rem;
   }
@@ -1074,6 +1143,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-2rem {
+    padding-inline: 2rem;
+  }
   .m-2rem {
     margin: 2rem;
   }
@@ -1122,6 +1194,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-2rem {
+    padding-inline: 2rem;
+  }
   .m-2rem {
     margin: 2rem;
   }
@@ -1170,6 +1245,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-2rem {
+    padding-inline: 2rem;
+  }
   .m-2rem {
     margin: 2rem;
   }
@@ -1218,6 +1296,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-2rem {
+    padding-inline: 2rem;
+  }
   .m-2rem {
     margin: 2rem;
   }
@@ -1265,6 +1346,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 2rem;
   }
 }
+.container-3rem {
+  padding-inline: 3rem;
+}
+
 .p-3rem {
   padding: 3rem;
 }
@@ -1335,6 +1420,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-3rem {
+    padding-inline: 3rem;
+  }
   .m-3rem {
     margin: 3rem;
   }
@@ -1383,6 +1471,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-3rem {
+    padding-inline: 3rem;
+  }
   .m-3rem {
     margin: 3rem;
   }
@@ -1431,6 +1522,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-3rem {
+    padding-inline: 3rem;
+  }
   .m-3rem {
     margin: 3rem;
   }
@@ -1479,6 +1573,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-3rem {
+    padding-inline: 3rem;
+  }
   .m-3rem {
     margin: 3rem;
   }
@@ -1527,6 +1624,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-3rem {
+    padding-inline: 3rem;
+  }
   .m-3rem {
     margin: 3rem;
   }
@@ -1575,6 +1675,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-3rem {
+    padding-inline: 3rem;
+  }
   .m-3rem {
     margin: 3rem;
   }
@@ -1622,6 +1725,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 3rem;
   }
 }
+.container-4rem {
+  padding-inline: 4rem;
+}
+
 .p-4rem {
   padding: 4rem;
 }
@@ -1692,6 +1799,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-4rem {
+    padding-inline: 4rem;
+  }
   .m-4rem {
     margin: 4rem;
   }
@@ -1740,6 +1850,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-4rem {
+    padding-inline: 4rem;
+  }
   .m-4rem {
     margin: 4rem;
   }
@@ -1788,6 +1901,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-4rem {
+    padding-inline: 4rem;
+  }
   .m-4rem {
     margin: 4rem;
   }
@@ -1836,6 +1952,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-4rem {
+    padding-inline: 4rem;
+  }
   .m-4rem {
     margin: 4rem;
   }
@@ -1884,6 +2003,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-4rem {
+    padding-inline: 4rem;
+  }
   .m-4rem {
     margin: 4rem;
   }
@@ -1932,6 +2054,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-4rem {
+    padding-inline: 4rem;
+  }
   .m-4rem {
     margin: 4rem;
   }
@@ -1979,6 +2104,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 4rem;
   }
 }
+.container-5rem {
+  padding-inline: 5rem;
+}
+
 .p-5rem {
   padding: 5rem;
 }
@@ -2049,6 +2178,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-5rem {
+    padding-inline: 5rem;
+  }
   .m-5rem {
     margin: 5rem;
   }
@@ -2097,6 +2229,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-5rem {
+    padding-inline: 5rem;
+  }
   .m-5rem {
     margin: 5rem;
   }
@@ -2145,6 +2280,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-5rem {
+    padding-inline: 5rem;
+  }
   .m-5rem {
     margin: 5rem;
   }
@@ -2193,6 +2331,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-5rem {
+    padding-inline: 5rem;
+  }
   .m-5rem {
     margin: 5rem;
   }
@@ -2241,6 +2382,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-5rem {
+    padding-inline: 5rem;
+  }
   .m-5rem {
     margin: 5rem;
   }
@@ -2289,6 +2433,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-5rem {
+    padding-inline: 5rem;
+  }
   .m-5rem {
     margin: 5rem;
   }
@@ -2336,6 +2483,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 5rem;
   }
 }
+.container-6rem {
+  padding-inline: 6rem;
+}
+
 .p-6rem {
   padding: 6rem;
 }
@@ -2406,6 +2557,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-6rem {
+    padding-inline: 6rem;
+  }
   .m-6rem {
     margin: 6rem;
   }
@@ -2454,6 +2608,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-6rem {
+    padding-inline: 6rem;
+  }
   .m-6rem {
     margin: 6rem;
   }
@@ -2502,6 +2659,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-6rem {
+    padding-inline: 6rem;
+  }
   .m-6rem {
     margin: 6rem;
   }
@@ -2550,6 +2710,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-6rem {
+    padding-inline: 6rem;
+  }
   .m-6rem {
     margin: 6rem;
   }
@@ -2598,6 +2761,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-6rem {
+    padding-inline: 6rem;
+  }
   .m-6rem {
     margin: 6rem;
   }
@@ -2646,6 +2812,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-6rem {
+    padding-inline: 6rem;
+  }
   .m-6rem {
     margin: 6rem;
   }
@@ -2693,6 +2862,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 6rem;
   }
 }
+.container-7rem {
+  padding-inline: 7rem;
+}
+
 .p-7rem {
   padding: 7rem;
 }
@@ -2763,6 +2936,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-7rem {
+    padding-inline: 7rem;
+  }
   .m-7rem {
     margin: 7rem;
   }
@@ -2811,6 +2987,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-7rem {
+    padding-inline: 7rem;
+  }
   .m-7rem {
     margin: 7rem;
   }
@@ -2859,6 +3038,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-7rem {
+    padding-inline: 7rem;
+  }
   .m-7rem {
     margin: 7rem;
   }
@@ -2907,6 +3089,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-7rem {
+    padding-inline: 7rem;
+  }
   .m-7rem {
     margin: 7rem;
   }
@@ -2955,6 +3140,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-7rem {
+    padding-inline: 7rem;
+  }
   .m-7rem {
     margin: 7rem;
   }
@@ -3003,6 +3191,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-7rem {
+    padding-inline: 7rem;
+  }
   .m-7rem {
     margin: 7rem;
   }
@@ -3050,6 +3241,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 7rem;
   }
 }
+.container-8rem {
+  padding-inline: 8rem;
+}
+
 .p-8rem {
   padding: 8rem;
 }
@@ -3120,6 +3315,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-8rem {
+    padding-inline: 8rem;
+  }
   .m-8rem {
     margin: 8rem;
   }
@@ -3168,6 +3366,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-8rem {
+    padding-inline: 8rem;
+  }
   .m-8rem {
     margin: 8rem;
   }
@@ -3216,6 +3417,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-8rem {
+    padding-inline: 8rem;
+  }
   .m-8rem {
     margin: 8rem;
   }
@@ -3264,6 +3468,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-8rem {
+    padding-inline: 8rem;
+  }
   .m-8rem {
     margin: 8rem;
   }
@@ -3312,6 +3519,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-8rem {
+    padding-inline: 8rem;
+  }
   .m-8rem {
     margin: 8rem;
   }
@@ -3360,6 +3570,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-8rem {
+    padding-inline: 8rem;
+  }
   .m-8rem {
     margin: 8rem;
   }
@@ -3407,6 +3620,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 8rem;
   }
 }
+.container-9rem {
+  padding-inline: 9rem;
+}
+
 .p-9rem {
   padding: 9rem;
 }
@@ -3477,6 +3694,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-9rem {
+    padding-inline: 9rem;
+  }
   .m-9rem {
     margin: 9rem;
   }
@@ -3525,6 +3745,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-9rem {
+    padding-inline: 9rem;
+  }
   .m-9rem {
     margin: 9rem;
   }
@@ -3573,6 +3796,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-9rem {
+    padding-inline: 9rem;
+  }
   .m-9rem {
     margin: 9rem;
   }
@@ -3621,6 +3847,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-9rem {
+    padding-inline: 9rem;
+  }
   .m-9rem {
     margin: 9rem;
   }
@@ -3669,6 +3898,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-9rem {
+    padding-inline: 9rem;
+  }
   .m-9rem {
     margin: 9rem;
   }
@@ -3717,6 +3949,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-9rem {
+    padding-inline: 9rem;
+  }
   .m-9rem {
     margin: 9rem;
   }
@@ -3764,6 +3999,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 9rem;
   }
 }
+.container-10rem {
+  padding-inline: 10rem;
+}
+
 .p-10rem {
   padding: 10rem;
 }
@@ -3834,6 +4073,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-10rem {
+    padding-inline: 10rem;
+  }
   .m-10rem {
     margin: 10rem;
   }
@@ -3882,6 +4124,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-10rem {
+    padding-inline: 10rem;
+  }
   .m-10rem {
     margin: 10rem;
   }
@@ -3930,6 +4175,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-10rem {
+    padding-inline: 10rem;
+  }
   .m-10rem {
     margin: 10rem;
   }
@@ -3978,6 +4226,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-10rem {
+    padding-inline: 10rem;
+  }
   .m-10rem {
     margin: 10rem;
   }
@@ -4026,6 +4277,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-10rem {
+    padding-inline: 10rem;
+  }
   .m-10rem {
     margin: 10rem;
   }
@@ -4074,6 +4328,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-10rem {
+    padding-inline: 10rem;
+  }
   .m-10rem {
     margin: 10rem;
   }
@@ -4121,6 +4378,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 10rem;
   }
 }
+.container-11rem {
+  padding-inline: 11rem;
+}
+
 .p-11rem {
   padding: 11rem;
 }
@@ -4191,6 +4452,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-11rem {
+    padding-inline: 11rem;
+  }
   .m-11rem {
     margin: 11rem;
   }
@@ -4239,6 +4503,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-11rem {
+    padding-inline: 11rem;
+  }
   .m-11rem {
     margin: 11rem;
   }
@@ -4287,6 +4554,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-11rem {
+    padding-inline: 11rem;
+  }
   .m-11rem {
     margin: 11rem;
   }
@@ -4335,6 +4605,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-11rem {
+    padding-inline: 11rem;
+  }
   .m-11rem {
     margin: 11rem;
   }
@@ -4383,6 +4656,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-11rem {
+    padding-inline: 11rem;
+  }
   .m-11rem {
     margin: 11rem;
   }
@@ -4431,6 +4707,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-11rem {
+    padding-inline: 11rem;
+  }
   .m-11rem {
     margin: 11rem;
   }
@@ -4478,6 +4757,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 11rem;
   }
 }
+.container-12rem {
+  padding-inline: 12rem;
+}
+
 .p-12rem {
   padding: 12rem;
 }
@@ -4548,6 +4831,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-12rem {
+    padding-inline: 12rem;
+  }
   .m-12rem {
     margin: 12rem;
   }
@@ -4596,6 +4882,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-12rem {
+    padding-inline: 12rem;
+  }
   .m-12rem {
     margin: 12rem;
   }
@@ -4644,6 +4933,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-12rem {
+    padding-inline: 12rem;
+  }
   .m-12rem {
     margin: 12rem;
   }
@@ -4692,6 +4984,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-12rem {
+    padding-inline: 12rem;
+  }
   .m-12rem {
     margin: 12rem;
   }
@@ -4740,6 +5035,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-12rem {
+    padding-inline: 12rem;
+  }
   .m-12rem {
     margin: 12rem;
   }
@@ -4788,6 +5086,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-12rem {
+    padding-inline: 12rem;
+  }
   .m-12rem {
     margin: 12rem;
   }
@@ -4835,6 +5136,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 12rem;
   }
 }
+.container-13rem {
+  padding-inline: 13rem;
+}
+
 .p-13rem {
   padding: 13rem;
 }
@@ -4905,6 +5210,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-13rem {
+    padding-inline: 13rem;
+  }
   .m-13rem {
     margin: 13rem;
   }
@@ -4953,6 +5261,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-13rem {
+    padding-inline: 13rem;
+  }
   .m-13rem {
     margin: 13rem;
   }
@@ -5001,6 +5312,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-13rem {
+    padding-inline: 13rem;
+  }
   .m-13rem {
     margin: 13rem;
   }
@@ -5049,6 +5363,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-13rem {
+    padding-inline: 13rem;
+  }
   .m-13rem {
     margin: 13rem;
   }
@@ -5097,6 +5414,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-13rem {
+    padding-inline: 13rem;
+  }
   .m-13rem {
     margin: 13rem;
   }
@@ -5145,6 +5465,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-13rem {
+    padding-inline: 13rem;
+  }
   .m-13rem {
     margin: 13rem;
   }
@@ -5192,6 +5515,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 13rem;
   }
 }
+.container-14rem {
+  padding-inline: 14rem;
+}
+
 .p-14rem {
   padding: 14rem;
 }
@@ -5262,6 +5589,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-14rem {
+    padding-inline: 14rem;
+  }
   .m-14rem {
     margin: 14rem;
   }
@@ -5310,6 +5640,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-14rem {
+    padding-inline: 14rem;
+  }
   .m-14rem {
     margin: 14rem;
   }
@@ -5358,6 +5691,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-14rem {
+    padding-inline: 14rem;
+  }
   .m-14rem {
     margin: 14rem;
   }
@@ -5406,6 +5742,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-14rem {
+    padding-inline: 14rem;
+  }
   .m-14rem {
     margin: 14rem;
   }
@@ -5454,6 +5793,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-14rem {
+    padding-inline: 14rem;
+  }
   .m-14rem {
     margin: 14rem;
   }
@@ -5502,6 +5844,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-14rem {
+    padding-inline: 14rem;
+  }
   .m-14rem {
     margin: 14rem;
   }
@@ -5549,6 +5894,10 @@ Margin, Paddings,Section Padding, width, and height
     min-height: 14rem;
   }
 }
+.container-15rem {
+  padding-inline: 15rem;
+}
+
 .p-15rem {
   padding: 15rem;
 }
@@ -5619,6 +5968,9 @@ Margin, Paddings,Section Padding, width, and height
 }
 
 @media (min-width: 30em) {
+  .xs-container-15rem {
+    padding-inline: 15rem;
+  }
   .m-15rem {
     margin: 15rem;
   }
@@ -5667,6 +6019,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 36em) {
+  .sm-container-15rem {
+    padding-inline: 15rem;
+  }
   .m-15rem {
     margin: 15rem;
   }
@@ -5715,6 +6070,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 48em) {
+  .md-container-15rem {
+    padding-inline: 15rem;
+  }
   .m-15rem {
     margin: 15rem;
   }
@@ -5763,6 +6121,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 62em) {
+  .lg-container-15rem {
+    padding-inline: 15rem;
+  }
   .m-15rem {
     margin: 15rem;
   }
@@ -5811,6 +6172,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 75em) {
+  .xl-container-15rem {
+    padding-inline: 15rem;
+  }
   .m-15rem {
     margin: 15rem;
   }
@@ -5859,6 +6223,9 @@ Margin, Paddings,Section Padding, width, and height
   }
 }
 @media (min-width: 87.5em) {
+  .xxl-container-15rem {
+    padding-inline: 15rem;
+  }
   .m-15rem {
     margin: 15rem;
   }
@@ -8322,7 +8689,6 @@ align self || justify self || align items || justify content || text align
   font-size: 1.2rem;
 }
 .btn--text:hover .text-icon {
-  transform: rotate(-20deg);
   display: inline-block;
   margin-left: 4px;
 }
@@ -8375,15 +8741,35 @@ align self || justify self || align items || justify content || text align
   border: 1px solid rgba(242, 233, 228, 0.4);
   padding: 1.5rem;
 }
-.blog-card__image {
-  transition: transform 0.3s;
-  background-color: antiquewhite;
+.blog-card__image-box {
   border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 30rem;
+}
+@media (min-width: 36em) {
+  .blog-card__image-box {
+    height: 50rem;
+  }
+}
+@media (min-width: 48em) {
+  .blog-card__image-box {
+    height: 28rem;
+  }
+}
+@media (min-width: 62em) {
+  .blog-card__image-box {
+    height: 20rem;
+  }
+}
+.blog-card__image-box img {
+  border-radius: 10px;
+  transition: transform 0.3s;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.blog-card:hover .blog-card__image {
+.blog-card:hover .blog-card__image-box img {
   transform: scale(1.03);
 }
 
@@ -8447,13 +8833,16 @@ header {
   border-radius: 10px;
 }
 
+/*=============
+   Section Hero
+  =============*/
 .section-hero {
   border-top: 1px solid rgba(242, 233, 228, 0.4);
   height: 70vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   row-gap: 6rem;
 }
@@ -8464,6 +8853,9 @@ header {
   }
 }
 
+/*=============
+   Section About
+  =============*/
 .section-about__image-box {
   border-radius: 10px;
   overflow: hidden;
@@ -8476,6 +8868,9 @@ header {
   object-fit: cover;
 }
 
+/*=============
+   Section Working
+  =============*/
 @media (min-width: 48em) {
   .section-working .row > *:not(:last-child) {
     border-right: 1px solid rgba(242, 233, 228, 0.4);
@@ -8492,13 +8887,28 @@ header {
 }
 .section-projects__text-box {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
   padding-top: 3rem;
   padding-bottom: 2rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.4rem;
+}
+@media (min-width: 48em) {
+  .section-projects__text-box {
+    text-align: start;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 .section-projects__text-content {
-  max-width: 60%;
+  max-width: 80%;
+}
+@media (min-width: 48em) {
+  .section-projects__text-content {
+    max-width: 60%;
+  }
 }
 
 /*=============
@@ -8506,11 +8916,96 @@ header {
   =============*/
 .section-blog__text-box {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.4rem;
+}
+@media (min-width: 48em) {
+  .section-blog__text-box {
+    text-align: start;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 .section-blog__text-content {
   max-width: 60%;
+}
+
+/*=============
+    Contact section
+    =============*/
+.section-contact {
+  background-color: #4a4e69;
+  border-radius: 10px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.section-contact__feature-box {
+  display: flex;
+  column-gap: 2rem;
+}
+.section-contact__feature-box:not(:last-child) {
+  border-bottom: 1px solid rgba(242, 233, 228, 0.4);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.section-contact__icon {
+  font-size: 1.6rem;
+  margin-top: 0.65rem;
+  display: inline-block;
+}
+.section-contact__topic {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+/*=============
+    FAQ section
+    =============*/
+.section-faq__faq-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.section-faq__faq-item {
+  border: 1px solid rgba(242, 233, 228, 0.4);
+  border-radius: 10px;
+}
+.section-faq__heading {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.section-faq__description {
+  transition: all 0.5s ease-in-out;
+}
+.section-faq__text-content {
+  border-top: 1px solid rgba(242, 233, 228, 0.4);
+  display: inline-block;
+  padding-inline: 2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  transition: all 0.4s ease-in-out;
+}
+.section-faq .hide {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+}
+.section-faq .hide .section-faq__text-content {
+  display: hidden;
+}
+.section-faq .active {
+  max-height: 70rem;
+  opacity: 1;
+}
+.section-faq .active .section-faq__text-content {
+  display: inline-block;
 }
 
 /*=============
@@ -8521,22 +9016,22 @@ header {
   border-radius: 10px;
 }
 .section-footer__heading {
-  margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 700;
-}
-.section-footer__news-box {
   margin-bottom: 1.6rem;
 }
+.section-footer__news-box {
+  margin-bottom: 1.2rem;
+}
 .section-footer__news-box:not(:last-child) {
-  padding-bottom: 1.6rem;
+  padding-bottom: 1.2rem;
   border-bottom: 1px solid rgba(242, 233, 228, 0.4);
 }
 .section-footer__social-icons {
   justify-content: start;
   display: flex;
   align-items: center;
-  column-gap: 2rem;
+  column-gap: 1.5rem;
 }
 .section-footer__social-icon {
   font-size: 2rem;
@@ -8577,59 +9072,6 @@ header {
   display: inline-block;
   text-decoration: none;
   color: #f2e9e4;
-}
-
-/*=============
-    FAQ section
-    =============*/
-.section-faq__faq-items {
-  padding: 1rem 2rem;
-  border: 1px solid rgba(242, 233, 228, 0.4);
-  border-radius: 10px;
-}
-.section-faq__faq-items:not(:last-child) {
-  margin-bottom: 2rem;
-}
-.section-faq__heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-}
-.section-faq__description {
-  transition: all 0.5s;
-  border-top: 1px solid rgba(242, 233, 228, 0.4);
-  padding-top: 0.8rem;
-  margin-top: 0.8rem;
-}
-
-/*=============
-    Contact section
-    =============*/
-.section-contact {
-  background-color: #4a4e69;
-  border-radius: 10px;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-}
-.section-contact__feature-box {
-  display: flex;
-  column-gap: 2rem;
-}
-.section-contact__feature-box:not(:last-child) {
-  border-bottom: 1px solid rgba(242, 233, 228, 0.4);
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-}
-.section-contact__icon {
-  font-size: 1.6rem;
-  margin-top: 0.65rem;
-  display: inline-block;
-}
-.section-contact__topic {
-  font-size: 1.8rem;
-  font-weight: 500;
-  margin-bottom: 0.8rem;
 }
 
 .navbar {
