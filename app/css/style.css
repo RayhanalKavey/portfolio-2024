@@ -137,11 +137,6 @@ body {
   line-height: 1.4;
   font-size: 4.2rem;
 }
-.heading-primary--meta {
-  font-size: 3rem;
-  margin-bottom: 2.5rem;
-  display: inline-block;
-}
 @media (min-width: 36em) {
   .heading-primary {
     font-size: 5rem;
@@ -156,6 +151,11 @@ body {
   .heading-primary {
     font-size: 6rem;
   }
+}
+.heading-primary--meta {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  display: inline-block;
 }
 
 .heading-meta {
@@ -8793,12 +8793,10 @@ align self || justify self || align items || justify content || text align
   border-radius: 10px;
   border: none;
   font-size: 1.6rem;
-}
-.form__input:focus {
+  font-family: "Jost", sans-serif;
   outline: none;
 }
 .form__input::placeholder {
-  font-size: 1.6rem;
   color: rgba(154, 140, 152, 0.5);
 }
 .form__icon {
@@ -8827,7 +8825,7 @@ align self || justify self || align items || justify content || text align
 }
 
 header {
-  background-image: linear-gradient(to right, rgba(34, 34, 59, 0.75), rgba(154, 140, 152, 0.6)), url("https://images.unsplash.com/photo-1489257712451-3a66755ca19c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: linear-gradient(to right, rgba(34, 34, 59, 0.75), rgba(154, 140, 152, 0.6)), url("/app/assets/images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;

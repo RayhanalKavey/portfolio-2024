@@ -20,12 +20,10 @@
     border-radius: $border-radius-base;
     border: none;
     font-size: 1.6rem;
-    &:focus {
-      outline: none;
-    }
+    font-family: $font-family;
+    outline: none;
 
     &::placeholder {
-      font-size: 1.6rem;
       color: $c-secondary;
     }
   }
