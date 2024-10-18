@@ -5,7 +5,26 @@ fetch(`../../public/projects.json`)
   })
   .catch((error) => console.error(error));
 
-//FAQ
+/*===============
+  Hamburger menu
+  ===============*/
+const navMenu = document.querySelector("#nav-menu");
+const hamburgerMenu = document.querySelector("#hamburger-menu");
+// Hamburger cross
+const bar1 = document.querySelector("#bar-1");
+const bar2 = document.querySelector("#bar-2");
+const bar3 = document.querySelector("#bar-3");
+// Click on hamburger menu
+hamburgerMenu?.addEventListener("click", () => {
+  navMenu.classList.toggle("navbar__links--active");
+  bar1.classList.toggle("navbar__toggle--bar-1");
+  bar2.classList.toggle("navbar__toggle--bar-2");
+  bar3.classList.toggle("navbar__toggle--bar-3");
+});
+
+/*===============
+        FAQ
+  ===============*/
 const faqItems = document.querySelectorAll(".section-faq__faq-item");
 
 faqItems.forEach((faqItem) => {

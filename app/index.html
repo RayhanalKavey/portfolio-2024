@@ -41,7 +41,8 @@
           <!-- <img src="../public/favicon.ico" alt="" /> -->
           <h2>RAK</h2>
         </div>
-        <ul class="navbar__links">
+
+        <ul class="navbar__links" id="nav-menu">
           <li class="navber__link"><a href="#">Home</a></li>
           <li class="navber__link"><a href="#about">About</a></li>
           <!-- <li class="navber__link"><a href="#">Service</a></li> -->
@@ -53,7 +54,13 @@
           <!-- <li class="navber__link"><a href="#">Resume</a></li> -->
           <!-- <li class="navber__link"><a href="#">Testimonial</a></li> -->
         </ul>
-        <a href="#contact" class="btn btn--main">Get in touch</a>
+
+        <!-- Hamburger Icon -->
+        <div class="navbar__toggle" id="hamburger-menu">
+          <span class="navbar__toggle--bar" id="bar-1"></span>
+          <span class="navbar__toggle--bar" id="bar-2"></span>
+          <span class="navbar__toggle--bar" id="bar-3"></span>
+        </div>
       </nav>
       <!-- =============
        Section Hero
@@ -64,7 +71,10 @@
           Rayhan Al Kavey <br />
           A Professional Web-Developer
         </h1>
-        <a href="#" class="btn btn--main">Download Resume</a>
+        <div class="section-hero__btn-box">
+          <a href="#" class="btn btn--main">Download Resume</a>
+          <a href="#contact" class="btn btn--main">Get in touch</a>
+        </div>
       </section>
     </header>
 
@@ -484,8 +494,8 @@
           <div class="col-12 col-lg-6">
             <h2 class="secondary-heading mb-2rem">FAQ</h2>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              ut reiciendis optio dicta officiis molestias!
+              Find answers to some of the most common questions regarding
+              services, project processes, and collaboration.
             </p>
           </div>
           <div class="col-12 col-lg-6">
@@ -501,7 +511,7 @@
                 <p class="section-faq__description paragraph hide">
                   <span class="section-faq__text-content">
                     Not only do I offer the expected maintenance and security
-                    but I also offer design and marketing support. My goal is to
+                    but I also offer design and logo support. My goal is to
                     become and extension of your in-house marketing team and I
                     will tailor a team and empowers your internal team.
                   </span>
@@ -539,16 +549,14 @@
                 </div>
                 <p class="section-faq__description paragraph hide">
                   <span class="section-faq__text-content">
-                    I am passionate about collaborating with business of all
-                    sizes, including small enterprises. I understand the unique
-                    challenges and aspirations of small businesses and tailor
-                    our services to meet their specific needs. My goal is to
-                    empower small businesses with memorable logos and impactful
-                    branding solutions that help you stand out in the
-                    competitive market. Whether you're just starting or looking
-                    to refresh your brand, I am here to elevate your small
-                    business presence with creativity and strategic
-                    design.</span
+                    The time it takes to complete a project depends on its
+                    complexity. For a basic website, it typically takes 2 to 4
+                    weeks. More complex projects, like e-commerce platforms or
+                    custom web applications, may take 6 to 12 weeks or longer.
+                    This includes design, development, testing, and revisions to
+                    ensure everything meets your expectations. I work closely
+                    with clients to meet deadlines while maintaining a high
+                    standard of quality.</span
                   >
                 </p>
               </div>
@@ -562,10 +570,13 @@
                 </div>
                 <p class="section-faq__description paragraph hide">
                   <span class="section-faq__text-content">
-                    Not only do I offer the expected maintenance and security
-                    but I also offer design and marketing support. My goal is to
-                    become and extension of your in-house marketing team and I
-                    will tailor a team and empowers your internal team.
+                    Yes, offline meetings can be arranged based on your
+                    preference and location. I am flexible with communication
+                    methods and can schedule in-person meetings to discuss
+                    project details, progress, or feedback. However, for clients
+                    in distant locations, I usually recommend virtual meetings
+                    as a more efficient option to ensure regular updates and
+                    faster collaboration.
                   </span>
                 </p>
               </div>
@@ -583,8 +594,8 @@
           <div class="col-12 col-lg-4">
             <h4 class="section-footer__heading">RAK</h4>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-              unde cupiditate aliquam consequatur .
+              Find essential links and resources below to help you navigate and
+              stay connected.
             </p>
             <div class="section-footer__social-icons">
               <a
@@ -607,7 +618,6 @@
               </a>
             </div>
           </div>
-
           <div class="col-12 col-lg-3">
             <h4 class="section-footer__heading">Latest News</h4>
             <div class="section-footer__news-box">
