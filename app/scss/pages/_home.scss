@@ -42,6 +42,21 @@ header {
 .section-about {
   &__intro {
   }
+  &__social-icons {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+  }
+  &__social-icon {
+    font-size: 2rem;
+    text-decoration: none;
+    color: $c-tertiary;
+  }
+  i {
+    font-size: 2.6rem;
+    color: $c-tertiary;
+  }
   &__image-box {
     border-radius: $border-radius-base;
     overflow: hidden;
@@ -228,6 +243,10 @@ header {
     text-decoration: none;
     color: $c-tertiary;
   }
+  i {
+    font-size: 1.6rem;
+    color: $c-tertiary;
+  }
   &__date {
   }
   &__title {
@@ -243,10 +262,6 @@ header {
     &:not(:last-child) {
       margin-bottom: 1rem;
     }
-  }
-  i {
-    font-size: 1.6rem;
-    color: $c-tertiary;
   }
 
   // Bottom part

@@ -51,6 +51,11 @@
         border-right: $border-primary;
         border-bottom: none;
       }
+      &:hover {
+        .navbar__links {
+          color: red;
+        }
+      }
     }
 
     a {

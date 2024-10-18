@@ -8861,6 +8861,21 @@ header {
 /*=============
    Section About
   =============*/
+.section-about__social-icons {
+  justify-content: start;
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.section-about__social-icon {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #f2e9e4;
+}
+.section-about i {
+  font-size: 2.6rem;
+  color: #f2e9e4;
+}
 .section-about__image-box {
   border-radius: 10px;
   overflow: hidden;
@@ -9043,6 +9058,10 @@ header {
   text-decoration: none;
   color: #f2e9e4;
 }
+.section-footer i {
+  font-size: 1.6rem;
+  color: #f2e9e4;
+}
 .section-footer__title {
   font-size: 1.8rem;
   font-weight: 400;
@@ -9055,10 +9074,6 @@ header {
 }
 .section-footer__contact-info:not(:last-child) {
   margin-bottom: 1rem;
-}
-.section-footer i {
-  font-size: 1.6rem;
-  color: #f2e9e4;
 }
 .section-footer__bottom {
   display: flex;
@@ -9134,6 +9149,9 @@ header {
     padding-right: 1.5rem;
     border-right: 1px solid rgba(242, 233, 228, 0.4);
     border-bottom: none;
+  }
+  .navbar__links:hover .navbar__links {
+    color: red;
   }
 }
 .navbar__links a {
