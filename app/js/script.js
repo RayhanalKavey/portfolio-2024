@@ -1,9 +1,37 @@
-fetch(`../../public/projects.json`)
-  .then((res) => res.json())
-  .then((data) => {
-    // console.log(data);
-  })
-  .catch((error) => console.error(error));
+const URL = `../../public/projects.json`;
+let projectRow = document.querySelector("#project-row");
+async function fetchProjectData() {
+  console.log("Getting data...");
+  let response = await fetch(URL);
+  let projects = await response.json();
+  // console.log("projects:", projects[0]);
+
+  // Inject all project cards to project row
+  projects.forEach((project) => {
+    // console.log("project:", project);
+    projectRow.innerHTML += `<div class="col-12 col-lg-6">
+      <div class="project-card">
+        <div class="project-card__text-box">
+          <h4 class="project-card__title mb-2rem">${project.projectName}</h4>
+          <p class="paragraph">
+           ${project.projectTitle}
+          </p>
+          <a href="#" class="btn btn--text">
+            <span class="text">Visit Details </span>
+            <span class="text-icon">&rarr;</span>
+          </a>
+        </div>
+        <div class="project-card__image-box">
+          <img
+            src="${project.img}"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>`;
+  });
+}
+fetchProjectData();
 
 /*===============
   Hamburger menu

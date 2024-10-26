@@ -1,0 +1,18 @@
+[
+  {
+    "blog_id": "01",
+    "blogCategory": "Tailwind CSS",
+    "blogName": "Photo Bizz",
+    "blogTitle": "Software Product Development",
+    "img": "https://i.ibb.co/r5H1xSN/Photo-Bizz.png",
+    "details": "Today, software products have taken on a significant role in our lives; it is difficult to think of any aspect of our everyday lives that is not aided by a computer-related program or procedure! The systemic processes are essential for creating high-quality software that satisfies specifications and overcomes obstacles. In order to support this, you need clearly comprehend end-user needs, put in place an enterprise-wide foundation for the application's platform structure, find and research new technologies, and design and develop fresh solutions."
+  },
+  {
+    "blog_id": "02",
+    "blogCategory": "Tailwind CSS",
+    "blogName": "Photo Bizz",
+    "blogTitle": "Software Product Development",
+    "img": "https://i.ibb.co/r5H1xSN/Photo-Bizz.png",
+    "details": "Today, software products have taken on a significant role in our lives; it is difficult to think of any aspect of our everyday lives that is not aided by a computer-related program or procedure! The systemic processes are essential for creating high-quality software that satisfies specifications and overcomes obstacles. In order to support this, you need clearly comprehend end-user needs, put in place an enterprise-wide foundation for the application's platform structure, find and research new technologies, and design and develop fresh solutions."
+  }
+]
