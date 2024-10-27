@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.79.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

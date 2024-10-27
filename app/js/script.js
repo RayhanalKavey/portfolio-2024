@@ -1,14 +1,44 @@
 const URL = `../../public/projects.json`;
+const QUERY_URL = `http://127.0.0.1:5501`;
 let projectRow = document.querySelector("#project-row");
+let projects = []; // This variable is taken for storing data after successful fetch
+
+/* ================
+Get data from project.json
+ ================== */
 async function fetchProjectData() {
+  showLoading();
   console.log("Getting data...");
   let response = await fetch(URL);
-  let projects = await response.json();
-  // console.log("projects:", projects[0]);
+  projects = await response.json();
 
-  // Inject all project cards to project row
+  // Check data fetched or not
+  if (projects.length === 0) {
+    console.log("Projects data is not loaded yet.");
+    return;
+  } else {
+    console.log("Data get successfully..");
+    injectProject(projects);
+  }
+}
+fetchProjectData();
+/*=======
+Handle loading
+=========*/
+function showLoading() {
+  projectRow.innerHTML = `<p>Loading...</p>`;
+}
+function hideLoading() {
+  projectRow.innerHTML = ``;
+}
+
+/*==================
+Inject all project 
+cards to project row
+ =================== */
+function injectProject(projects) {
+  hideLoading();
   projects.forEach((project) => {
-    // console.log("project:", project);
     projectRow.innerHTML += `<div class="col-12 col-lg-6">
       <div class="project-card">
         <div class="project-card__text-box">
@@ -16,7 +46,7 @@ async function fetchProjectData() {
           <p class="paragraph">
            ${project.projectTitle}
           </p>
-          <a href="#" class="btn btn--text">
+          <a onclick="showProjectDetails(${project.project_id});"  class="btn btn--text">
             <span class="text">Visit Details </span>
             <span class="text-icon">&rarr;</span>
           </a>
@@ -31,7 +61,14 @@ async function fetchProjectData() {
     </div>`;
   });
 }
-fetchProjectData();
+
+function showProjectDetails(id) {
+  const selectedProject = projects?.find((project) => project.project_id == id);
+  if (selectedProject) {
+    localStorage.setItem("selectedProject", JSON.stringify(selectedProject));
+    window.location.href = `${QUERY_URL}/html/projectDetails.html`;
+  }
+}
 
 /*===============
   Hamburger menu

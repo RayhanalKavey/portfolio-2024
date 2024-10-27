@@ -1,6 +1,6 @@
 [
   {
-    "projectCategory_id": "01",
+    "project_id": "01",
     "projectCategory": "React and MongoDb",
     "projectName": "Laptop Utopia",
     "projectTitle": "A laptop resell website",
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "projectCategory_id": "02",
+    "project_id": "02",
     "projectCategory": "Tailwind CSS",
     "projectName": "Photo Bizz",
     "projectTitle": "A service provider's website",
@@ -25,7 +25,7 @@
   },
 
   {
-    "projectCategory_id": "03",
+    "project_id": "03",
     "projectCategory": "BootStrap",
     "projectName": "React Guideline",
     "projectTitle": "A online learning website",
