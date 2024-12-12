@@ -11279,6 +11279,37 @@ header {
 /*=============
   Section Responsive images
   =============*/
+/* ====
+Gallery
+======*/
+.gallery {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: 1fr;
+  margin: auto;
+}
+@media (min-width: 36em) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+@media (min-width: 48em) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+.gallery__img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.gallery__img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
 /*=============
   Navbar
   =============*/

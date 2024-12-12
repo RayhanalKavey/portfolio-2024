@@ -35,39 +35,7 @@
     Custom CSS
    ====== -->
     <link rel="stylesheet" href="/app/css/style.css" />
-    <style>
-      .gallery {
-        display: grid;
-        gap: 1.6rem;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin: auto;
-      }
-
-      .gallery img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        cursor: pointer;
-      }
-
-      .gallery img:hover {
-        transform: scale(1.05);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-      }
-
-      @media (max-width: 768px) {
-        .gallery {
-          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        }
-      }
-
-      @media (max-width: 480px) {
-        .gallery {
-          grid-template-columns: 1fr;
-        }
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <header
@@ -170,12 +138,30 @@
         <h2 class="heading-secondary text-align-center">Responsive Design</h2>
 
         <div class="gallery pt-4rem">
-          <img src="https://via.placeholder.com/400" alt="Image 1" />
-          <img src="https://via.placeholder.com/400" alt="Image 2" />
-          <img src="https://via.placeholder.com/400" alt="Image 3" />
-          <img src="https://via.placeholder.com/400" alt="Image 4" />
-          <img src="https://via.placeholder.com/400" alt="Image 5" />
-          <img src="https://via.placeholder.com/400" alt="Image 6" />
+          <img
+            class="gallery__img"
+            src="https://via.placeholder.com/400"
+            alt="Image 1" />
+          <img
+            class="gallery__img"
+            src="https://via.placeholder.com/400"
+            alt="Image 2" />
+          <img
+            class="gallery__img"
+            src="https://via.placeholder.com/400"
+            alt="Image 3" />
+          <img
+            class="gallery__img"
+            src="https://via.placeholder.com/400"
+            alt="Image 4" />
+          <img
+            class="gallery__img"
+            src="https://via.placeholder.com/400"
+            alt="Image 5" />
+          <img
+            class="gallery__img"
+            src="https://via.placeholder.com/400"
+            alt="Image 6" />
         </div>
       </section>
     </main>
