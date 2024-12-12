@@ -1,0 +1,74 @@
+@use "../abstracts" as *;
+
+/*=============
+  Section Project Details 
+  =============*/
+.project-details {
+  background-color: $c-primary-v2;
+  border-radius: $border-radius-base;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+
+  @include respond-to(lg) {
+    flex-direction: row;
+  }
+
+  &__image-box {
+    background-color: red;
+    width: 100%;
+    border-radius: $border-radius-base;
+    overflow: hidden;
+    @include respond-to(lg) {
+      width: 43%;
+      flex-direction: row;
+    }
+    img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.03);
+    }
+  }
+  &__text-box {
+    width: 100%;
+    @include respond-to(lg) {
+      width: 55%;
+    }
+  }
+  &__details-list {
+  }
+}
+
+/*=============
+  Section Links
+  =============*/
+.section-link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  &__link-item {
+    color: $c-primary;
+    background-color: $c-tertiary;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  &__link-item:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: $btn-shadow-light;
+  }
+}
+/*=============
+  Section Responsive images
+  =============*/
+.section-responsive {
+  &__gallery {
+  }
+}

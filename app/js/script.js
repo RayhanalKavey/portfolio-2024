@@ -1,11 +1,19 @@
 const URL = `../../public/projects.json`;
 const QUERY_URL = `http://127.0.0.1:5501`;
+/*=======
+Handle loading
+=========*/
 let projectRow = document.querySelector("#project-row");
-let projects = []; // This variable is taken for storing data after successful fetch
-
+function showLoading() {
+  projectRow.innerHTML = `<p>Loading...</p>`;
+}
+function hideLoading() {
+  projectRow.innerHTML = ``;
+}
 /* ================
-Get data from project.json
- ================== */
+Get Project data from project.json
+================== */
+let projects = []; // This variable is taken for storing data after successful fetch
 async function fetchProjectData() {
   showLoading();
   console.log("Getting data...");
@@ -22,15 +30,6 @@ async function fetchProjectData() {
   }
 }
 fetchProjectData();
-/*=======
-Handle loading
-=========*/
-function showLoading() {
-  projectRow.innerHTML = `<p>Loading...</p>`;
-}
-function hideLoading() {
-  projectRow.innerHTML = ``;
-}
 
 /*==================
 Inject all project 

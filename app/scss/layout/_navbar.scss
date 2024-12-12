@@ -9,6 +9,10 @@
   font-size: 1.6rem;
   padding: 2.6rem 0;
   position: relative;
+  &__logo-link {
+    color: $c-tertiary;
+    text-decoration: none;
+  }
   &__links {
     display: none;
     cursor: pointer;

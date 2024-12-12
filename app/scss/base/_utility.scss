@@ -72,7 +72,21 @@ Margin, Paddings,Section Padding, width, and height
   .pt-#{$size} {
     padding-top: $size;
   }
+  .pl-#{$size} {
+    padding-left: $size;
+  }
   .pb-#{$size} {
+    padding-bottom: $size;
+  }
+  .pr-#{$size} {
+    padding-right: $size;
+  }
+  .px-#{$size} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+  .py-#{$size} {
+    padding-top: $size;
     padding-bottom: $size;
   }
   //Section padding
@@ -93,7 +107,21 @@ Margin, Paddings,Section Padding, width, and height
   .mt-#{$size} {
     margin-top: $size;
   }
+  .ml-#{$size} {
+    margin-left: $size;
+  }
   .mb-#{$size} {
+    margin-bottom: $size;
+  }
+  .mr-#{$size} {
+    margin-right: $size;
+  }
+  .mx-#{$size} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+  .my-#{$size} {
+    margin-top: $size;
     margin-bottom: $size;
   }
   // Width
@@ -140,6 +168,14 @@ Margin, Paddings,Section Padding, width, and height
       .#{$breakpoint-name}-mb-#{$size} {
         margin-bottom: $size;
       }
+      .#{$breakpoint-name}-mx-#{$size} {
+        margin-left: $size;
+        margin-right: $size;
+      }
+      .#{$breakpoint-name}-my-#{$size} {
+        margin-top: $size;
+        margin-bottom: $size;
+      }
       //Padding
       .p-#{$size} {
         padding: $size;
@@ -148,6 +184,14 @@ Margin, Paddings,Section Padding, width, and height
         padding-top: $size;
       }
       .#{$breakpoint-name}-pb-#{$size} {
+        padding-bottom: $size;
+      }
+      .#{$breakpoint-name}-px-#{$size} {
+        padding-left: $size;
+        padding-right: $size;
+      }
+      .#{$breakpoint-name}-py-#{$size} {
+        padding-top: $size;
         padding-bottom: $size;
       }
       //Section padding

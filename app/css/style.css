@@ -221,7 +221,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 0rem;
 }
 
+.pl-0rem {
+  padding-left: 0rem;
+}
+
 .pb-0rem {
+  padding-bottom: 0rem;
+}
+
+.pr-0rem {
+  padding-right: 0rem;
+}
+
+.px-0rem {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+.py-0rem {
+  padding-top: 0rem;
   padding-bottom: 0rem;
 }
 
@@ -246,7 +264,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 0rem;
 }
 
+.ml-0rem {
+  margin-left: 0rem;
+}
+
 .mb-0rem {
+  margin-bottom: 0rem;
+}
+
+.mr-0rem {
+  margin-right: 0rem;
+}
+
+.mx-0rem {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.my-0rem {
+  margin-top: 0rem;
   margin-bottom: 0rem;
 }
 
@@ -295,6 +331,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-0rem {
     margin-bottom: 0rem;
   }
+  .xs-mx-0rem {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .xs-my-0rem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   .p-0rem {
     padding: 0rem;
   }
@@ -302,6 +346,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 0rem;
   }
   .xs-pb-0rem {
+    padding-bottom: 0rem;
+  }
+  .xs-px-0rem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .xs-py-0rem {
+    padding-top: 0rem;
     padding-bottom: 0rem;
   }
   .sp-0rem {
@@ -346,6 +398,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-0rem {
     margin-bottom: 0rem;
   }
+  .sm-mx-0rem {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .sm-my-0rem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   .p-0rem {
     padding: 0rem;
   }
@@ -353,6 +413,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 0rem;
   }
   .sm-pb-0rem {
+    padding-bottom: 0rem;
+  }
+  .sm-px-0rem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .sm-py-0rem {
+    padding-top: 0rem;
     padding-bottom: 0rem;
   }
   .sp-0rem {
@@ -397,6 +465,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-0rem {
     margin-bottom: 0rem;
   }
+  .md-mx-0rem {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .md-my-0rem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   .p-0rem {
     padding: 0rem;
   }
@@ -404,6 +480,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 0rem;
   }
   .md-pb-0rem {
+    padding-bottom: 0rem;
+  }
+  .md-px-0rem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .md-py-0rem {
+    padding-top: 0rem;
     padding-bottom: 0rem;
   }
   .sp-0rem {
@@ -448,6 +532,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-0rem {
     margin-bottom: 0rem;
   }
+  .lg-mx-0rem {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .lg-my-0rem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   .p-0rem {
     padding: 0rem;
   }
@@ -455,6 +547,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 0rem;
   }
   .lg-pb-0rem {
+    padding-bottom: 0rem;
+  }
+  .lg-px-0rem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .lg-py-0rem {
+    padding-top: 0rem;
     padding-bottom: 0rem;
   }
   .sp-0rem {
@@ -499,6 +599,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-0rem {
     margin-bottom: 0rem;
   }
+  .xl-mx-0rem {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .xl-my-0rem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   .p-0rem {
     padding: 0rem;
   }
@@ -506,6 +614,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 0rem;
   }
   .xl-pb-0rem {
+    padding-bottom: 0rem;
+  }
+  .xl-px-0rem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .xl-py-0rem {
+    padding-top: 0rem;
     padding-bottom: 0rem;
   }
   .sp-0rem {
@@ -550,6 +666,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-0rem {
     margin-bottom: 0rem;
   }
+  .xxl-mx-0rem {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .xxl-my-0rem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
   .p-0rem {
     padding: 0rem;
   }
@@ -557,6 +681,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 0rem;
   }
   .xxl-pb-0rem {
+    padding-bottom: 0rem;
+  }
+  .xxl-px-0rem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .xxl-py-0rem {
+    padding-top: 0rem;
     padding-bottom: 0rem;
   }
   .sp-0rem {
@@ -600,7 +732,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 1rem;
 }
 
+.pl-1rem {
+  padding-left: 1rem;
+}
+
 .pb-1rem {
+  padding-bottom: 1rem;
+}
+
+.pr-1rem {
+  padding-right: 1rem;
+}
+
+.px-1rem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1rem {
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -625,7 +775,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 1rem;
 }
 
+.ml-1rem {
+  margin-left: 1rem;
+}
+
 .mb-1rem {
+  margin-bottom: 1rem;
+}
+
+.mr-1rem {
+  margin-right: 1rem;
+}
+
+.mx-1rem {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-1rem {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -674,6 +842,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-1rem {
     margin-bottom: 1rem;
   }
+  .xs-mx-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .xs-my-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .p-1rem {
     padding: 1rem;
   }
@@ -681,6 +857,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 1rem;
   }
   .xs-pb-1rem {
+    padding-bottom: 1rem;
+  }
+  .xs-px-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .xs-py-1rem {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .sp-1rem {
@@ -725,6 +909,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-1rem {
     margin-bottom: 1rem;
   }
+  .sm-mx-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .sm-my-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .p-1rem {
     padding: 1rem;
   }
@@ -732,6 +924,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 1rem;
   }
   .sm-pb-1rem {
+    padding-bottom: 1rem;
+  }
+  .sm-px-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .sm-py-1rem {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .sp-1rem {
@@ -776,6 +976,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-1rem {
     margin-bottom: 1rem;
   }
+  .md-mx-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .md-my-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .p-1rem {
     padding: 1rem;
   }
@@ -783,6 +991,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 1rem;
   }
   .md-pb-1rem {
+    padding-bottom: 1rem;
+  }
+  .md-px-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .md-py-1rem {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .sp-1rem {
@@ -827,6 +1043,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-1rem {
     margin-bottom: 1rem;
   }
+  .lg-mx-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .lg-my-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .p-1rem {
     padding: 1rem;
   }
@@ -834,6 +1058,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 1rem;
   }
   .lg-pb-1rem {
+    padding-bottom: 1rem;
+  }
+  .lg-px-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .lg-py-1rem {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .sp-1rem {
@@ -878,6 +1110,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-1rem {
     margin-bottom: 1rem;
   }
+  .xl-mx-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .xl-my-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .p-1rem {
     padding: 1rem;
   }
@@ -885,6 +1125,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 1rem;
   }
   .xl-pb-1rem {
+    padding-bottom: 1rem;
+  }
+  .xl-px-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .xl-py-1rem {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .sp-1rem {
@@ -929,6 +1177,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-1rem {
     margin-bottom: 1rem;
   }
+  .xxl-mx-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .xxl-my-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .p-1rem {
     padding: 1rem;
   }
@@ -936,6 +1192,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 1rem;
   }
   .xxl-pb-1rem {
+    padding-bottom: 1rem;
+  }
+  .xxl-px-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .xxl-py-1rem {
+    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .sp-1rem {
@@ -979,7 +1243,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 2rem;
 }
 
+.pl-2rem {
+  padding-left: 2rem;
+}
+
 .pb-2rem {
+  padding-bottom: 2rem;
+}
+
+.pr-2rem {
+  padding-right: 2rem;
+}
+
+.px-2rem {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-2rem {
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -1004,7 +1286,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 2rem;
 }
 
+.ml-2rem {
+  margin-left: 2rem;
+}
+
 .mb-2rem {
+  margin-bottom: 2rem;
+}
+
+.mr-2rem {
+  margin-right: 2rem;
+}
+
+.mx-2rem {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.my-2rem {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -1053,6 +1353,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-2rem {
     margin-bottom: 2rem;
   }
+  .xs-mx-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .xs-my-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .p-2rem {
     padding: 2rem;
   }
@@ -1060,6 +1368,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 2rem;
   }
   .xs-pb-2rem {
+    padding-bottom: 2rem;
+  }
+  .xs-px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .xs-py-2rem {
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .sp-2rem {
@@ -1104,6 +1420,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-2rem {
     margin-bottom: 2rem;
   }
+  .sm-mx-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .sm-my-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .p-2rem {
     padding: 2rem;
   }
@@ -1111,6 +1435,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 2rem;
   }
   .sm-pb-2rem {
+    padding-bottom: 2rem;
+  }
+  .sm-px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .sm-py-2rem {
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .sp-2rem {
@@ -1155,6 +1487,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-2rem {
     margin-bottom: 2rem;
   }
+  .md-mx-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .md-my-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .p-2rem {
     padding: 2rem;
   }
@@ -1162,6 +1502,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 2rem;
   }
   .md-pb-2rem {
+    padding-bottom: 2rem;
+  }
+  .md-px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .md-py-2rem {
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .sp-2rem {
@@ -1206,6 +1554,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-2rem {
     margin-bottom: 2rem;
   }
+  .lg-mx-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .lg-my-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .p-2rem {
     padding: 2rem;
   }
@@ -1213,6 +1569,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 2rem;
   }
   .lg-pb-2rem {
+    padding-bottom: 2rem;
+  }
+  .lg-px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .lg-py-2rem {
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .sp-2rem {
@@ -1257,6 +1621,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-2rem {
     margin-bottom: 2rem;
   }
+  .xl-mx-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .xl-my-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .p-2rem {
     padding: 2rem;
   }
@@ -1264,6 +1636,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 2rem;
   }
   .xl-pb-2rem {
+    padding-bottom: 2rem;
+  }
+  .xl-px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .xl-py-2rem {
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .sp-2rem {
@@ -1308,6 +1688,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-2rem {
     margin-bottom: 2rem;
   }
+  .xxl-mx-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .xxl-my-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .p-2rem {
     padding: 2rem;
   }
@@ -1315,6 +1703,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 2rem;
   }
   .xxl-pb-2rem {
+    padding-bottom: 2rem;
+  }
+  .xxl-px-2rem {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .xxl-py-2rem {
+    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .sp-2rem {
@@ -1358,7 +1754,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 3rem;
 }
 
+.pl-3rem {
+  padding-left: 3rem;
+}
+
 .pb-3rem {
+  padding-bottom: 3rem;
+}
+
+.pr-3rem {
+  padding-right: 3rem;
+}
+
+.px-3rem {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-3rem {
+  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
@@ -1383,7 +1797,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 3rem;
 }
 
+.ml-3rem {
+  margin-left: 3rem;
+}
+
 .mb-3rem {
+  margin-bottom: 3rem;
+}
+
+.mr-3rem {
+  margin-right: 3rem;
+}
+
+.mx-3rem {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.my-3rem {
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
@@ -1432,6 +1864,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-3rem {
     margin-bottom: 3rem;
   }
+  .xs-mx-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .xs-my-3rem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .p-3rem {
     padding: 3rem;
   }
@@ -1439,6 +1879,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 3rem;
   }
   .xs-pb-3rem {
+    padding-bottom: 3rem;
+  }
+  .xs-px-3rem {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .xs-py-3rem {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   .sp-3rem {
@@ -1483,6 +1931,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-3rem {
     margin-bottom: 3rem;
   }
+  .sm-mx-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .sm-my-3rem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .p-3rem {
     padding: 3rem;
   }
@@ -1490,6 +1946,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 3rem;
   }
   .sm-pb-3rem {
+    padding-bottom: 3rem;
+  }
+  .sm-px-3rem {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .sm-py-3rem {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   .sp-3rem {
@@ -1534,6 +1998,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-3rem {
     margin-bottom: 3rem;
   }
+  .md-mx-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .md-my-3rem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .p-3rem {
     padding: 3rem;
   }
@@ -1541,6 +2013,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 3rem;
   }
   .md-pb-3rem {
+    padding-bottom: 3rem;
+  }
+  .md-px-3rem {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .md-py-3rem {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   .sp-3rem {
@@ -1585,6 +2065,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-3rem {
     margin-bottom: 3rem;
   }
+  .lg-mx-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .lg-my-3rem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .p-3rem {
     padding: 3rem;
   }
@@ -1592,6 +2080,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 3rem;
   }
   .lg-pb-3rem {
+    padding-bottom: 3rem;
+  }
+  .lg-px-3rem {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .lg-py-3rem {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   .sp-3rem {
@@ -1636,6 +2132,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-3rem {
     margin-bottom: 3rem;
   }
+  .xl-mx-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .xl-my-3rem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .p-3rem {
     padding: 3rem;
   }
@@ -1643,6 +2147,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 3rem;
   }
   .xl-pb-3rem {
+    padding-bottom: 3rem;
+  }
+  .xl-px-3rem {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .xl-py-3rem {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   .sp-3rem {
@@ -1687,6 +2199,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-3rem {
     margin-bottom: 3rem;
   }
+  .xxl-mx-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .xxl-my-3rem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .p-3rem {
     padding: 3rem;
   }
@@ -1694,6 +2214,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 3rem;
   }
   .xxl-pb-3rem {
+    padding-bottom: 3rem;
+  }
+  .xxl-px-3rem {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .xxl-py-3rem {
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
   .sp-3rem {
@@ -1737,7 +2265,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 4rem;
 }
 
+.pl-4rem {
+  padding-left: 4rem;
+}
+
 .pb-4rem {
+  padding-bottom: 4rem;
+}
+
+.pr-4rem {
+  padding-right: 4rem;
+}
+
+.px-4rem {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-4rem {
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -1762,7 +2308,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 4rem;
 }
 
+.ml-4rem {
+  margin-left: 4rem;
+}
+
 .mb-4rem {
+  margin-bottom: 4rem;
+}
+
+.mr-4rem {
+  margin-right: 4rem;
+}
+
+.mx-4rem {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.my-4rem {
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
@@ -1811,6 +2375,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-4rem {
     margin-bottom: 4rem;
   }
+  .xs-mx-4rem {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .xs-my-4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .p-4rem {
     padding: 4rem;
   }
@@ -1818,6 +2390,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 4rem;
   }
   .xs-pb-4rem {
+    padding-bottom: 4rem;
+  }
+  .xs-px-4rem {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .xs-py-4rem {
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .sp-4rem {
@@ -1862,6 +2442,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-4rem {
     margin-bottom: 4rem;
   }
+  .sm-mx-4rem {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .sm-my-4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .p-4rem {
     padding: 4rem;
   }
@@ -1869,6 +2457,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 4rem;
   }
   .sm-pb-4rem {
+    padding-bottom: 4rem;
+  }
+  .sm-px-4rem {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .sm-py-4rem {
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .sp-4rem {
@@ -1913,6 +2509,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-4rem {
     margin-bottom: 4rem;
   }
+  .md-mx-4rem {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .md-my-4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .p-4rem {
     padding: 4rem;
   }
@@ -1920,6 +2524,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 4rem;
   }
   .md-pb-4rem {
+    padding-bottom: 4rem;
+  }
+  .md-px-4rem {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .md-py-4rem {
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .sp-4rem {
@@ -1964,6 +2576,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-4rem {
     margin-bottom: 4rem;
   }
+  .lg-mx-4rem {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .lg-my-4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .p-4rem {
     padding: 4rem;
   }
@@ -1971,6 +2591,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 4rem;
   }
   .lg-pb-4rem {
+    padding-bottom: 4rem;
+  }
+  .lg-px-4rem {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .lg-py-4rem {
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .sp-4rem {
@@ -2015,6 +2643,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-4rem {
     margin-bottom: 4rem;
   }
+  .xl-mx-4rem {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .xl-my-4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .p-4rem {
     padding: 4rem;
   }
@@ -2022,6 +2658,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 4rem;
   }
   .xl-pb-4rem {
+    padding-bottom: 4rem;
+  }
+  .xl-px-4rem {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .xl-py-4rem {
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .sp-4rem {
@@ -2066,6 +2710,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-4rem {
     margin-bottom: 4rem;
   }
+  .xxl-mx-4rem {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .xxl-my-4rem {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .p-4rem {
     padding: 4rem;
   }
@@ -2073,6 +2725,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 4rem;
   }
   .xxl-pb-4rem {
+    padding-bottom: 4rem;
+  }
+  .xxl-px-4rem {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .xxl-py-4rem {
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .sp-4rem {
@@ -2116,7 +2776,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 5rem;
 }
 
+.pl-5rem {
+  padding-left: 5rem;
+}
+
 .pb-5rem {
+  padding-bottom: 5rem;
+}
+
+.pr-5rem {
+  padding-right: 5rem;
+}
+
+.px-5rem {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-5rem {
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -2141,7 +2819,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 5rem;
 }
 
+.ml-5rem {
+  margin-left: 5rem;
+}
+
 .mb-5rem {
+  margin-bottom: 5rem;
+}
+
+.mr-5rem {
+  margin-right: 5rem;
+}
+
+.mx-5rem {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.my-5rem {
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -2190,6 +2886,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-5rem {
     margin-bottom: 5rem;
   }
+  .xs-mx-5rem {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .xs-my-5rem {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .p-5rem {
     padding: 5rem;
   }
@@ -2197,6 +2901,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 5rem;
   }
   .xs-pb-5rem {
+    padding-bottom: 5rem;
+  }
+  .xs-px-5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .xs-py-5rem {
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
   .sp-5rem {
@@ -2241,6 +2953,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-5rem {
     margin-bottom: 5rem;
   }
+  .sm-mx-5rem {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .sm-my-5rem {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .p-5rem {
     padding: 5rem;
   }
@@ -2248,6 +2968,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 5rem;
   }
   .sm-pb-5rem {
+    padding-bottom: 5rem;
+  }
+  .sm-px-5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .sm-py-5rem {
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
   .sp-5rem {
@@ -2292,6 +3020,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-5rem {
     margin-bottom: 5rem;
   }
+  .md-mx-5rem {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .md-my-5rem {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .p-5rem {
     padding: 5rem;
   }
@@ -2299,6 +3035,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 5rem;
   }
   .md-pb-5rem {
+    padding-bottom: 5rem;
+  }
+  .md-px-5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .md-py-5rem {
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
   .sp-5rem {
@@ -2343,6 +3087,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-5rem {
     margin-bottom: 5rem;
   }
+  .lg-mx-5rem {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .lg-my-5rem {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .p-5rem {
     padding: 5rem;
   }
@@ -2350,6 +3102,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 5rem;
   }
   .lg-pb-5rem {
+    padding-bottom: 5rem;
+  }
+  .lg-px-5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .lg-py-5rem {
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
   .sp-5rem {
@@ -2394,6 +3154,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-5rem {
     margin-bottom: 5rem;
   }
+  .xl-mx-5rem {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .xl-my-5rem {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .p-5rem {
     padding: 5rem;
   }
@@ -2401,6 +3169,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 5rem;
   }
   .xl-pb-5rem {
+    padding-bottom: 5rem;
+  }
+  .xl-px-5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .xl-py-5rem {
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
   .sp-5rem {
@@ -2445,6 +3221,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-5rem {
     margin-bottom: 5rem;
   }
+  .xxl-mx-5rem {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .xxl-my-5rem {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   .p-5rem {
     padding: 5rem;
   }
@@ -2452,6 +3236,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 5rem;
   }
   .xxl-pb-5rem {
+    padding-bottom: 5rem;
+  }
+  .xxl-px-5rem {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .xxl-py-5rem {
+    padding-top: 5rem;
     padding-bottom: 5rem;
   }
   .sp-5rem {
@@ -2495,7 +3287,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 6rem;
 }
 
+.pl-6rem {
+  padding-left: 6rem;
+}
+
 .pb-6rem {
+  padding-bottom: 6rem;
+}
+
+.pr-6rem {
+  padding-right: 6rem;
+}
+
+.px-6rem {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.py-6rem {
+  padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
@@ -2520,7 +3330,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 6rem;
 }
 
+.ml-6rem {
+  margin-left: 6rem;
+}
+
 .mb-6rem {
+  margin-bottom: 6rem;
+}
+
+.mr-6rem {
+  margin-right: 6rem;
+}
+
+.mx-6rem {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.my-6rem {
+  margin-top: 6rem;
   margin-bottom: 6rem;
 }
 
@@ -2569,6 +3397,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-6rem {
     margin-bottom: 6rem;
   }
+  .xs-mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .xs-my-6rem {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
   .p-6rem {
     padding: 6rem;
   }
@@ -2576,6 +3412,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 6rem;
   }
   .xs-pb-6rem {
+    padding-bottom: 6rem;
+  }
+  .xs-px-6rem {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .xs-py-6rem {
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .sp-6rem {
@@ -2620,6 +3464,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-6rem {
     margin-bottom: 6rem;
   }
+  .sm-mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .sm-my-6rem {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
   .p-6rem {
     padding: 6rem;
   }
@@ -2627,6 +3479,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 6rem;
   }
   .sm-pb-6rem {
+    padding-bottom: 6rem;
+  }
+  .sm-px-6rem {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .sm-py-6rem {
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .sp-6rem {
@@ -2671,6 +3531,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-6rem {
     margin-bottom: 6rem;
   }
+  .md-mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .md-my-6rem {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
   .p-6rem {
     padding: 6rem;
   }
@@ -2678,6 +3546,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 6rem;
   }
   .md-pb-6rem {
+    padding-bottom: 6rem;
+  }
+  .md-px-6rem {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .md-py-6rem {
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .sp-6rem {
@@ -2722,6 +3598,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-6rem {
     margin-bottom: 6rem;
   }
+  .lg-mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .lg-my-6rem {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
   .p-6rem {
     padding: 6rem;
   }
@@ -2729,6 +3613,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 6rem;
   }
   .lg-pb-6rem {
+    padding-bottom: 6rem;
+  }
+  .lg-px-6rem {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .lg-py-6rem {
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .sp-6rem {
@@ -2773,6 +3665,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-6rem {
     margin-bottom: 6rem;
   }
+  .xl-mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .xl-my-6rem {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
   .p-6rem {
     padding: 6rem;
   }
@@ -2780,6 +3680,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 6rem;
   }
   .xl-pb-6rem {
+    padding-bottom: 6rem;
+  }
+  .xl-px-6rem {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .xl-py-6rem {
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .sp-6rem {
@@ -2824,6 +3732,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-6rem {
     margin-bottom: 6rem;
   }
+  .xxl-mx-6rem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .xxl-my-6rem {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
   .p-6rem {
     padding: 6rem;
   }
@@ -2831,6 +3747,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 6rem;
   }
   .xxl-pb-6rem {
+    padding-bottom: 6rem;
+  }
+  .xxl-px-6rem {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .xxl-py-6rem {
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .sp-6rem {
@@ -2874,7 +3798,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 7rem;
 }
 
+.pl-7rem {
+  padding-left: 7rem;
+}
+
 .pb-7rem {
+  padding-bottom: 7rem;
+}
+
+.pr-7rem {
+  padding-right: 7rem;
+}
+
+.px-7rem {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.py-7rem {
+  padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
@@ -2899,7 +3841,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 7rem;
 }
 
+.ml-7rem {
+  margin-left: 7rem;
+}
+
 .mb-7rem {
+  margin-bottom: 7rem;
+}
+
+.mr-7rem {
+  margin-right: 7rem;
+}
+
+.mx-7rem {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.my-7rem {
+  margin-top: 7rem;
   margin-bottom: 7rem;
 }
 
@@ -2948,6 +3908,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-7rem {
     margin-bottom: 7rem;
   }
+  .xs-mx-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .xs-my-7rem {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
   .p-7rem {
     padding: 7rem;
   }
@@ -2955,6 +3923,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 7rem;
   }
   .xs-pb-7rem {
+    padding-bottom: 7rem;
+  }
+  .xs-px-7rem {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .xs-py-7rem {
+    padding-top: 7rem;
     padding-bottom: 7rem;
   }
   .sp-7rem {
@@ -2999,6 +3975,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-7rem {
     margin-bottom: 7rem;
   }
+  .sm-mx-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .sm-my-7rem {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
   .p-7rem {
     padding: 7rem;
   }
@@ -3006,6 +3990,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 7rem;
   }
   .sm-pb-7rem {
+    padding-bottom: 7rem;
+  }
+  .sm-px-7rem {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .sm-py-7rem {
+    padding-top: 7rem;
     padding-bottom: 7rem;
   }
   .sp-7rem {
@@ -3050,6 +4042,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-7rem {
     margin-bottom: 7rem;
   }
+  .md-mx-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .md-my-7rem {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
   .p-7rem {
     padding: 7rem;
   }
@@ -3057,6 +4057,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 7rem;
   }
   .md-pb-7rem {
+    padding-bottom: 7rem;
+  }
+  .md-px-7rem {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .md-py-7rem {
+    padding-top: 7rem;
     padding-bottom: 7rem;
   }
   .sp-7rem {
@@ -3101,6 +4109,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-7rem {
     margin-bottom: 7rem;
   }
+  .lg-mx-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .lg-my-7rem {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
   .p-7rem {
     padding: 7rem;
   }
@@ -3108,6 +4124,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 7rem;
   }
   .lg-pb-7rem {
+    padding-bottom: 7rem;
+  }
+  .lg-px-7rem {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .lg-py-7rem {
+    padding-top: 7rem;
     padding-bottom: 7rem;
   }
   .sp-7rem {
@@ -3152,6 +4176,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-7rem {
     margin-bottom: 7rem;
   }
+  .xl-mx-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .xl-my-7rem {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
   .p-7rem {
     padding: 7rem;
   }
@@ -3159,6 +4191,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 7rem;
   }
   .xl-pb-7rem {
+    padding-bottom: 7rem;
+  }
+  .xl-px-7rem {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .xl-py-7rem {
+    padding-top: 7rem;
     padding-bottom: 7rem;
   }
   .sp-7rem {
@@ -3203,6 +4243,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-7rem {
     margin-bottom: 7rem;
   }
+  .xxl-mx-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .xxl-my-7rem {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
   .p-7rem {
     padding: 7rem;
   }
@@ -3210,6 +4258,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 7rem;
   }
   .xxl-pb-7rem {
+    padding-bottom: 7rem;
+  }
+  .xxl-px-7rem {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+  .xxl-py-7rem {
+    padding-top: 7rem;
     padding-bottom: 7rem;
   }
   .sp-7rem {
@@ -3253,7 +4309,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 8rem;
 }
 
+.pl-8rem {
+  padding-left: 8rem;
+}
+
 .pb-8rem {
+  padding-bottom: 8rem;
+}
+
+.pr-8rem {
+  padding-right: 8rem;
+}
+
+.px-8rem {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.py-8rem {
+  padding-top: 8rem;
   padding-bottom: 8rem;
 }
 
@@ -3278,7 +4352,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 8rem;
 }
 
+.ml-8rem {
+  margin-left: 8rem;
+}
+
 .mb-8rem {
+  margin-bottom: 8rem;
+}
+
+.mr-8rem {
+  margin-right: 8rem;
+}
+
+.mx-8rem {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.my-8rem {
+  margin-top: 8rem;
   margin-bottom: 8rem;
 }
 
@@ -3327,6 +4419,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-8rem {
     margin-bottom: 8rem;
   }
+  .xs-mx-8rem {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .xs-my-8rem {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .p-8rem {
     padding: 8rem;
   }
@@ -3334,6 +4434,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 8rem;
   }
   .xs-pb-8rem {
+    padding-bottom: 8rem;
+  }
+  .xs-px-8rem {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .xs-py-8rem {
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .sp-8rem {
@@ -3378,6 +4486,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-8rem {
     margin-bottom: 8rem;
   }
+  .sm-mx-8rem {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .sm-my-8rem {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .p-8rem {
     padding: 8rem;
   }
@@ -3385,6 +4501,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 8rem;
   }
   .sm-pb-8rem {
+    padding-bottom: 8rem;
+  }
+  .sm-px-8rem {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .sm-py-8rem {
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .sp-8rem {
@@ -3429,6 +4553,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-8rem {
     margin-bottom: 8rem;
   }
+  .md-mx-8rem {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .md-my-8rem {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .p-8rem {
     padding: 8rem;
   }
@@ -3436,6 +4568,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 8rem;
   }
   .md-pb-8rem {
+    padding-bottom: 8rem;
+  }
+  .md-px-8rem {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .md-py-8rem {
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .sp-8rem {
@@ -3480,6 +4620,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-8rem {
     margin-bottom: 8rem;
   }
+  .lg-mx-8rem {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .lg-my-8rem {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .p-8rem {
     padding: 8rem;
   }
@@ -3487,6 +4635,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 8rem;
   }
   .lg-pb-8rem {
+    padding-bottom: 8rem;
+  }
+  .lg-px-8rem {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .lg-py-8rem {
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .sp-8rem {
@@ -3531,6 +4687,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-8rem {
     margin-bottom: 8rem;
   }
+  .xl-mx-8rem {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .xl-my-8rem {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .p-8rem {
     padding: 8rem;
   }
@@ -3538,6 +4702,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 8rem;
   }
   .xl-pb-8rem {
+    padding-bottom: 8rem;
+  }
+  .xl-px-8rem {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .xl-py-8rem {
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .sp-8rem {
@@ -3582,6 +4754,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-8rem {
     margin-bottom: 8rem;
   }
+  .xxl-mx-8rem {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .xxl-my-8rem {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
   .p-8rem {
     padding: 8rem;
   }
@@ -3589,6 +4769,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 8rem;
   }
   .xxl-pb-8rem {
+    padding-bottom: 8rem;
+  }
+  .xxl-px-8rem {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .xxl-py-8rem {
+    padding-top: 8rem;
     padding-bottom: 8rem;
   }
   .sp-8rem {
@@ -3632,7 +4820,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 9rem;
 }
 
+.pl-9rem {
+  padding-left: 9rem;
+}
+
 .pb-9rem {
+  padding-bottom: 9rem;
+}
+
+.pr-9rem {
+  padding-right: 9rem;
+}
+
+.px-9rem {
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+.py-9rem {
+  padding-top: 9rem;
   padding-bottom: 9rem;
 }
 
@@ -3657,7 +4863,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 9rem;
 }
 
+.ml-9rem {
+  margin-left: 9rem;
+}
+
 .mb-9rem {
+  margin-bottom: 9rem;
+}
+
+.mr-9rem {
+  margin-right: 9rem;
+}
+
+.mx-9rem {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
+.my-9rem {
+  margin-top: 9rem;
   margin-bottom: 9rem;
 }
 
@@ -3706,6 +4930,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-9rem {
     margin-bottom: 9rem;
   }
+  .xs-mx-9rem {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+  .xs-my-9rem {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
   .p-9rem {
     padding: 9rem;
   }
@@ -3713,6 +4945,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 9rem;
   }
   .xs-pb-9rem {
+    padding-bottom: 9rem;
+  }
+  .xs-px-9rem {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .xs-py-9rem {
+    padding-top: 9rem;
     padding-bottom: 9rem;
   }
   .sp-9rem {
@@ -3757,6 +4997,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-9rem {
     margin-bottom: 9rem;
   }
+  .sm-mx-9rem {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+  .sm-my-9rem {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
   .p-9rem {
     padding: 9rem;
   }
@@ -3764,6 +5012,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 9rem;
   }
   .sm-pb-9rem {
+    padding-bottom: 9rem;
+  }
+  .sm-px-9rem {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .sm-py-9rem {
+    padding-top: 9rem;
     padding-bottom: 9rem;
   }
   .sp-9rem {
@@ -3808,6 +5064,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-9rem {
     margin-bottom: 9rem;
   }
+  .md-mx-9rem {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+  .md-my-9rem {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
   .p-9rem {
     padding: 9rem;
   }
@@ -3815,6 +5079,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 9rem;
   }
   .md-pb-9rem {
+    padding-bottom: 9rem;
+  }
+  .md-px-9rem {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .md-py-9rem {
+    padding-top: 9rem;
     padding-bottom: 9rem;
   }
   .sp-9rem {
@@ -3859,6 +5131,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-9rem {
     margin-bottom: 9rem;
   }
+  .lg-mx-9rem {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+  .lg-my-9rem {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
   .p-9rem {
     padding: 9rem;
   }
@@ -3866,6 +5146,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 9rem;
   }
   .lg-pb-9rem {
+    padding-bottom: 9rem;
+  }
+  .lg-px-9rem {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .lg-py-9rem {
+    padding-top: 9rem;
     padding-bottom: 9rem;
   }
   .sp-9rem {
@@ -3910,6 +5198,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-9rem {
     margin-bottom: 9rem;
   }
+  .xl-mx-9rem {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+  .xl-my-9rem {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
   .p-9rem {
     padding: 9rem;
   }
@@ -3917,6 +5213,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 9rem;
   }
   .xl-pb-9rem {
+    padding-bottom: 9rem;
+  }
+  .xl-px-9rem {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .xl-py-9rem {
+    padding-top: 9rem;
     padding-bottom: 9rem;
   }
   .sp-9rem {
@@ -3961,6 +5265,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-9rem {
     margin-bottom: 9rem;
   }
+  .xxl-mx-9rem {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+  .xxl-my-9rem {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
   .p-9rem {
     padding: 9rem;
   }
@@ -3968,6 +5280,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 9rem;
   }
   .xxl-pb-9rem {
+    padding-bottom: 9rem;
+  }
+  .xxl-px-9rem {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .xxl-py-9rem {
+    padding-top: 9rem;
     padding-bottom: 9rem;
   }
   .sp-9rem {
@@ -4011,7 +5331,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 10rem;
 }
 
+.pl-10rem {
+  padding-left: 10rem;
+}
+
 .pb-10rem {
+  padding-bottom: 10rem;
+}
+
+.pr-10rem {
+  padding-right: 10rem;
+}
+
+.px-10rem {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.py-10rem {
+  padding-top: 10rem;
   padding-bottom: 10rem;
 }
 
@@ -4036,7 +5374,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 10rem;
 }
 
+.ml-10rem {
+  margin-left: 10rem;
+}
+
 .mb-10rem {
+  margin-bottom: 10rem;
+}
+
+.mr-10rem {
+  margin-right: 10rem;
+}
+
+.mx-10rem {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.my-10rem {
+  margin-top: 10rem;
   margin-bottom: 10rem;
 }
 
@@ -4085,6 +5441,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-10rem {
     margin-bottom: 10rem;
   }
+  .xs-mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .xs-my-10rem {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
   .p-10rem {
     padding: 10rem;
   }
@@ -4092,6 +5456,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 10rem;
   }
   .xs-pb-10rem {
+    padding-bottom: 10rem;
+  }
+  .xs-px-10rem {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .xs-py-10rem {
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .sp-10rem {
@@ -4136,6 +5508,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-10rem {
     margin-bottom: 10rem;
   }
+  .sm-mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .sm-my-10rem {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
   .p-10rem {
     padding: 10rem;
   }
@@ -4143,6 +5523,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 10rem;
   }
   .sm-pb-10rem {
+    padding-bottom: 10rem;
+  }
+  .sm-px-10rem {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .sm-py-10rem {
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .sp-10rem {
@@ -4187,6 +5575,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-10rem {
     margin-bottom: 10rem;
   }
+  .md-mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .md-my-10rem {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
   .p-10rem {
     padding: 10rem;
   }
@@ -4194,6 +5590,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 10rem;
   }
   .md-pb-10rem {
+    padding-bottom: 10rem;
+  }
+  .md-px-10rem {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .md-py-10rem {
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .sp-10rem {
@@ -4238,6 +5642,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-10rem {
     margin-bottom: 10rem;
   }
+  .lg-mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .lg-my-10rem {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
   .p-10rem {
     padding: 10rem;
   }
@@ -4245,6 +5657,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 10rem;
   }
   .lg-pb-10rem {
+    padding-bottom: 10rem;
+  }
+  .lg-px-10rem {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .lg-py-10rem {
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .sp-10rem {
@@ -4289,6 +5709,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-10rem {
     margin-bottom: 10rem;
   }
+  .xl-mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .xl-my-10rem {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
   .p-10rem {
     padding: 10rem;
   }
@@ -4296,6 +5724,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 10rem;
   }
   .xl-pb-10rem {
+    padding-bottom: 10rem;
+  }
+  .xl-px-10rem {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .xl-py-10rem {
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .sp-10rem {
@@ -4340,6 +5776,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-10rem {
     margin-bottom: 10rem;
   }
+  .xxl-mx-10rem {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .xxl-my-10rem {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
   .p-10rem {
     padding: 10rem;
   }
@@ -4347,6 +5791,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 10rem;
   }
   .xxl-pb-10rem {
+    padding-bottom: 10rem;
+  }
+  .xxl-px-10rem {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .xxl-py-10rem {
+    padding-top: 10rem;
     padding-bottom: 10rem;
   }
   .sp-10rem {
@@ -4390,7 +5842,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 11rem;
 }
 
+.pl-11rem {
+  padding-left: 11rem;
+}
+
 .pb-11rem {
+  padding-bottom: 11rem;
+}
+
+.pr-11rem {
+  padding-right: 11rem;
+}
+
+.px-11rem {
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.py-11rem {
+  padding-top: 11rem;
   padding-bottom: 11rem;
 }
 
@@ -4415,7 +5885,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 11rem;
 }
 
+.ml-11rem {
+  margin-left: 11rem;
+}
+
 .mb-11rem {
+  margin-bottom: 11rem;
+}
+
+.mr-11rem {
+  margin-right: 11rem;
+}
+
+.mx-11rem {
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+
+.my-11rem {
+  margin-top: 11rem;
   margin-bottom: 11rem;
 }
 
@@ -4464,6 +5952,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-11rem {
     margin-bottom: 11rem;
   }
+  .xs-mx-11rem {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  .xs-my-11rem {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
   .p-11rem {
     padding: 11rem;
   }
@@ -4471,6 +5967,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 11rem;
   }
   .xs-pb-11rem {
+    padding-bottom: 11rem;
+  }
+  .xs-px-11rem {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .xs-py-11rem {
+    padding-top: 11rem;
     padding-bottom: 11rem;
   }
   .sp-11rem {
@@ -4515,6 +6019,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-11rem {
     margin-bottom: 11rem;
   }
+  .sm-mx-11rem {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  .sm-my-11rem {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
   .p-11rem {
     padding: 11rem;
   }
@@ -4522,6 +6034,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 11rem;
   }
   .sm-pb-11rem {
+    padding-bottom: 11rem;
+  }
+  .sm-px-11rem {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .sm-py-11rem {
+    padding-top: 11rem;
     padding-bottom: 11rem;
   }
   .sp-11rem {
@@ -4566,6 +6086,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-11rem {
     margin-bottom: 11rem;
   }
+  .md-mx-11rem {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  .md-my-11rem {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
   .p-11rem {
     padding: 11rem;
   }
@@ -4573,6 +6101,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 11rem;
   }
   .md-pb-11rem {
+    padding-bottom: 11rem;
+  }
+  .md-px-11rem {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .md-py-11rem {
+    padding-top: 11rem;
     padding-bottom: 11rem;
   }
   .sp-11rem {
@@ -4617,6 +6153,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-11rem {
     margin-bottom: 11rem;
   }
+  .lg-mx-11rem {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  .lg-my-11rem {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
   .p-11rem {
     padding: 11rem;
   }
@@ -4624,6 +6168,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 11rem;
   }
   .lg-pb-11rem {
+    padding-bottom: 11rem;
+  }
+  .lg-px-11rem {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .lg-py-11rem {
+    padding-top: 11rem;
     padding-bottom: 11rem;
   }
   .sp-11rem {
@@ -4668,6 +6220,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-11rem {
     margin-bottom: 11rem;
   }
+  .xl-mx-11rem {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  .xl-my-11rem {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
   .p-11rem {
     padding: 11rem;
   }
@@ -4675,6 +6235,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 11rem;
   }
   .xl-pb-11rem {
+    padding-bottom: 11rem;
+  }
+  .xl-px-11rem {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .xl-py-11rem {
+    padding-top: 11rem;
     padding-bottom: 11rem;
   }
   .sp-11rem {
@@ -4719,6 +6287,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-11rem {
     margin-bottom: 11rem;
   }
+  .xxl-mx-11rem {
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  .xxl-my-11rem {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
   .p-11rem {
     padding: 11rem;
   }
@@ -4726,6 +6302,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 11rem;
   }
   .xxl-pb-11rem {
+    padding-bottom: 11rem;
+  }
+  .xxl-px-11rem {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .xxl-py-11rem {
+    padding-top: 11rem;
     padding-bottom: 11rem;
   }
   .sp-11rem {
@@ -4769,7 +6353,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 12rem;
 }
 
+.pl-12rem {
+  padding-left: 12rem;
+}
+
 .pb-12rem {
+  padding-bottom: 12rem;
+}
+
+.pr-12rem {
+  padding-right: 12rem;
+}
+
+.px-12rem {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.py-12rem {
+  padding-top: 12rem;
   padding-bottom: 12rem;
 }
 
@@ -4794,7 +6396,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 12rem;
 }
 
+.ml-12rem {
+  margin-left: 12rem;
+}
+
 .mb-12rem {
+  margin-bottom: 12rem;
+}
+
+.mr-12rem {
+  margin-right: 12rem;
+}
+
+.mx-12rem {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.my-12rem {
+  margin-top: 12rem;
   margin-bottom: 12rem;
 }
 
@@ -4843,6 +6463,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-12rem {
     margin-bottom: 12rem;
   }
+  .xs-mx-12rem {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .xs-my-12rem {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
   .p-12rem {
     padding: 12rem;
   }
@@ -4850,6 +6478,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 12rem;
   }
   .xs-pb-12rem {
+    padding-bottom: 12rem;
+  }
+  .xs-px-12rem {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .xs-py-12rem {
+    padding-top: 12rem;
     padding-bottom: 12rem;
   }
   .sp-12rem {
@@ -4894,6 +6530,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-12rem {
     margin-bottom: 12rem;
   }
+  .sm-mx-12rem {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .sm-my-12rem {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
   .p-12rem {
     padding: 12rem;
   }
@@ -4901,6 +6545,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 12rem;
   }
   .sm-pb-12rem {
+    padding-bottom: 12rem;
+  }
+  .sm-px-12rem {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .sm-py-12rem {
+    padding-top: 12rem;
     padding-bottom: 12rem;
   }
   .sp-12rem {
@@ -4945,6 +6597,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-12rem {
     margin-bottom: 12rem;
   }
+  .md-mx-12rem {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .md-my-12rem {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
   .p-12rem {
     padding: 12rem;
   }
@@ -4952,6 +6612,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 12rem;
   }
   .md-pb-12rem {
+    padding-bottom: 12rem;
+  }
+  .md-px-12rem {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .md-py-12rem {
+    padding-top: 12rem;
     padding-bottom: 12rem;
   }
   .sp-12rem {
@@ -4996,6 +6664,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-12rem {
     margin-bottom: 12rem;
   }
+  .lg-mx-12rem {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .lg-my-12rem {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
   .p-12rem {
     padding: 12rem;
   }
@@ -5003,6 +6679,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 12rem;
   }
   .lg-pb-12rem {
+    padding-bottom: 12rem;
+  }
+  .lg-px-12rem {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .lg-py-12rem {
+    padding-top: 12rem;
     padding-bottom: 12rem;
   }
   .sp-12rem {
@@ -5047,6 +6731,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-12rem {
     margin-bottom: 12rem;
   }
+  .xl-mx-12rem {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .xl-my-12rem {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
   .p-12rem {
     padding: 12rem;
   }
@@ -5054,6 +6746,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 12rem;
   }
   .xl-pb-12rem {
+    padding-bottom: 12rem;
+  }
+  .xl-px-12rem {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .xl-py-12rem {
+    padding-top: 12rem;
     padding-bottom: 12rem;
   }
   .sp-12rem {
@@ -5098,6 +6798,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-12rem {
     margin-bottom: 12rem;
   }
+  .xxl-mx-12rem {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .xxl-my-12rem {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
   .p-12rem {
     padding: 12rem;
   }
@@ -5105,6 +6813,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 12rem;
   }
   .xxl-pb-12rem {
+    padding-bottom: 12rem;
+  }
+  .xxl-px-12rem {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .xxl-py-12rem {
+    padding-top: 12rem;
     padding-bottom: 12rem;
   }
   .sp-12rem {
@@ -5148,7 +6864,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 13rem;
 }
 
+.pl-13rem {
+  padding-left: 13rem;
+}
+
 .pb-13rem {
+  padding-bottom: 13rem;
+}
+
+.pr-13rem {
+  padding-right: 13rem;
+}
+
+.px-13rem {
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+.py-13rem {
+  padding-top: 13rem;
   padding-bottom: 13rem;
 }
 
@@ -5173,7 +6907,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 13rem;
 }
 
+.ml-13rem {
+  margin-left: 13rem;
+}
+
 .mb-13rem {
+  margin-bottom: 13rem;
+}
+
+.mr-13rem {
+  margin-right: 13rem;
+}
+
+.mx-13rem {
+  margin-left: 13rem;
+  margin-right: 13rem;
+}
+
+.my-13rem {
+  margin-top: 13rem;
   margin-bottom: 13rem;
 }
 
@@ -5222,6 +6974,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-13rem {
     margin-bottom: 13rem;
   }
+  .xs-mx-13rem {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+  .xs-my-13rem {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
   .p-13rem {
     padding: 13rem;
   }
@@ -5229,6 +6989,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 13rem;
   }
   .xs-pb-13rem {
+    padding-bottom: 13rem;
+  }
+  .xs-px-13rem {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .xs-py-13rem {
+    padding-top: 13rem;
     padding-bottom: 13rem;
   }
   .sp-13rem {
@@ -5273,6 +7041,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-13rem {
     margin-bottom: 13rem;
   }
+  .sm-mx-13rem {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+  .sm-my-13rem {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
   .p-13rem {
     padding: 13rem;
   }
@@ -5280,6 +7056,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 13rem;
   }
   .sm-pb-13rem {
+    padding-bottom: 13rem;
+  }
+  .sm-px-13rem {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .sm-py-13rem {
+    padding-top: 13rem;
     padding-bottom: 13rem;
   }
   .sp-13rem {
@@ -5324,6 +7108,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-13rem {
     margin-bottom: 13rem;
   }
+  .md-mx-13rem {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+  .md-my-13rem {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
   .p-13rem {
     padding: 13rem;
   }
@@ -5331,6 +7123,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 13rem;
   }
   .md-pb-13rem {
+    padding-bottom: 13rem;
+  }
+  .md-px-13rem {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .md-py-13rem {
+    padding-top: 13rem;
     padding-bottom: 13rem;
   }
   .sp-13rem {
@@ -5375,6 +7175,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-13rem {
     margin-bottom: 13rem;
   }
+  .lg-mx-13rem {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+  .lg-my-13rem {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
   .p-13rem {
     padding: 13rem;
   }
@@ -5382,6 +7190,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 13rem;
   }
   .lg-pb-13rem {
+    padding-bottom: 13rem;
+  }
+  .lg-px-13rem {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .lg-py-13rem {
+    padding-top: 13rem;
     padding-bottom: 13rem;
   }
   .sp-13rem {
@@ -5426,6 +7242,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-13rem {
     margin-bottom: 13rem;
   }
+  .xl-mx-13rem {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+  .xl-my-13rem {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
   .p-13rem {
     padding: 13rem;
   }
@@ -5433,6 +7257,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 13rem;
   }
   .xl-pb-13rem {
+    padding-bottom: 13rem;
+  }
+  .xl-px-13rem {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .xl-py-13rem {
+    padding-top: 13rem;
     padding-bottom: 13rem;
   }
   .sp-13rem {
@@ -5477,6 +7309,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-13rem {
     margin-bottom: 13rem;
   }
+  .xxl-mx-13rem {
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+  .xxl-my-13rem {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
   .p-13rem {
     padding: 13rem;
   }
@@ -5484,6 +7324,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 13rem;
   }
   .xxl-pb-13rem {
+    padding-bottom: 13rem;
+  }
+  .xxl-px-13rem {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .xxl-py-13rem {
+    padding-top: 13rem;
     padding-bottom: 13rem;
   }
   .sp-13rem {
@@ -5527,7 +7375,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 14rem;
 }
 
+.pl-14rem {
+  padding-left: 14rem;
+}
+
 .pb-14rem {
+  padding-bottom: 14rem;
+}
+
+.pr-14rem {
+  padding-right: 14rem;
+}
+
+.px-14rem {
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+
+.py-14rem {
+  padding-top: 14rem;
   padding-bottom: 14rem;
 }
 
@@ -5552,7 +7418,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 14rem;
 }
 
+.ml-14rem {
+  margin-left: 14rem;
+}
+
 .mb-14rem {
+  margin-bottom: 14rem;
+}
+
+.mr-14rem {
+  margin-right: 14rem;
+}
+
+.mx-14rem {
+  margin-left: 14rem;
+  margin-right: 14rem;
+}
+
+.my-14rem {
+  margin-top: 14rem;
   margin-bottom: 14rem;
 }
 
@@ -5601,6 +7485,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-14rem {
     margin-bottom: 14rem;
   }
+  .xs-mx-14rem {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .xs-my-14rem {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
   .p-14rem {
     padding: 14rem;
   }
@@ -5608,6 +7500,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 14rem;
   }
   .xs-pb-14rem {
+    padding-bottom: 14rem;
+  }
+  .xs-px-14rem {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .xs-py-14rem {
+    padding-top: 14rem;
     padding-bottom: 14rem;
   }
   .sp-14rem {
@@ -5652,6 +7552,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-14rem {
     margin-bottom: 14rem;
   }
+  .sm-mx-14rem {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .sm-my-14rem {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
   .p-14rem {
     padding: 14rem;
   }
@@ -5659,6 +7567,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 14rem;
   }
   .sm-pb-14rem {
+    padding-bottom: 14rem;
+  }
+  .sm-px-14rem {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .sm-py-14rem {
+    padding-top: 14rem;
     padding-bottom: 14rem;
   }
   .sp-14rem {
@@ -5703,6 +7619,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-14rem {
     margin-bottom: 14rem;
   }
+  .md-mx-14rem {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .md-my-14rem {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
   .p-14rem {
     padding: 14rem;
   }
@@ -5710,6 +7634,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 14rem;
   }
   .md-pb-14rem {
+    padding-bottom: 14rem;
+  }
+  .md-px-14rem {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .md-py-14rem {
+    padding-top: 14rem;
     padding-bottom: 14rem;
   }
   .sp-14rem {
@@ -5754,6 +7686,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-14rem {
     margin-bottom: 14rem;
   }
+  .lg-mx-14rem {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .lg-my-14rem {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
   .p-14rem {
     padding: 14rem;
   }
@@ -5761,6 +7701,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 14rem;
   }
   .lg-pb-14rem {
+    padding-bottom: 14rem;
+  }
+  .lg-px-14rem {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .lg-py-14rem {
+    padding-top: 14rem;
     padding-bottom: 14rem;
   }
   .sp-14rem {
@@ -5805,6 +7753,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-14rem {
     margin-bottom: 14rem;
   }
+  .xl-mx-14rem {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .xl-my-14rem {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
   .p-14rem {
     padding: 14rem;
   }
@@ -5812,6 +7768,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 14rem;
   }
   .xl-pb-14rem {
+    padding-bottom: 14rem;
+  }
+  .xl-px-14rem {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .xl-py-14rem {
+    padding-top: 14rem;
     padding-bottom: 14rem;
   }
   .sp-14rem {
@@ -5856,6 +7820,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-14rem {
     margin-bottom: 14rem;
   }
+  .xxl-mx-14rem {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .xxl-my-14rem {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
   .p-14rem {
     padding: 14rem;
   }
@@ -5863,6 +7835,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 14rem;
   }
   .xxl-pb-14rem {
+    padding-bottom: 14rem;
+  }
+  .xxl-px-14rem {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+  .xxl-py-14rem {
+    padding-top: 14rem;
     padding-bottom: 14rem;
   }
   .sp-14rem {
@@ -5906,7 +7886,25 @@ Margin, Paddings,Section Padding, width, and height
   padding-top: 15rem;
 }
 
+.pl-15rem {
+  padding-left: 15rem;
+}
+
 .pb-15rem {
+  padding-bottom: 15rem;
+}
+
+.pr-15rem {
+  padding-right: 15rem;
+}
+
+.px-15rem {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.py-15rem {
+  padding-top: 15rem;
   padding-bottom: 15rem;
 }
 
@@ -5931,7 +7929,25 @@ Margin, Paddings,Section Padding, width, and height
   margin-top: 15rem;
 }
 
+.ml-15rem {
+  margin-left: 15rem;
+}
+
 .mb-15rem {
+  margin-bottom: 15rem;
+}
+
+.mr-15rem {
+  margin-right: 15rem;
+}
+
+.mx-15rem {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.my-15rem {
+  margin-top: 15rem;
   margin-bottom: 15rem;
 }
 
@@ -5980,6 +7996,14 @@ Margin, Paddings,Section Padding, width, and height
   .xs-mb-15rem {
     margin-bottom: 15rem;
   }
+  .xs-mx-15rem {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .xs-my-15rem {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
   .p-15rem {
     padding: 15rem;
   }
@@ -5987,6 +8011,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 15rem;
   }
   .xs-pb-15rem {
+    padding-bottom: 15rem;
+  }
+  .xs-px-15rem {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .xs-py-15rem {
+    padding-top: 15rem;
     padding-bottom: 15rem;
   }
   .sp-15rem {
@@ -6031,6 +8063,14 @@ Margin, Paddings,Section Padding, width, and height
   .sm-mb-15rem {
     margin-bottom: 15rem;
   }
+  .sm-mx-15rem {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .sm-my-15rem {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
   .p-15rem {
     padding: 15rem;
   }
@@ -6038,6 +8078,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 15rem;
   }
   .sm-pb-15rem {
+    padding-bottom: 15rem;
+  }
+  .sm-px-15rem {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .sm-py-15rem {
+    padding-top: 15rem;
     padding-bottom: 15rem;
   }
   .sp-15rem {
@@ -6082,6 +8130,14 @@ Margin, Paddings,Section Padding, width, and height
   .md-mb-15rem {
     margin-bottom: 15rem;
   }
+  .md-mx-15rem {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .md-my-15rem {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
   .p-15rem {
     padding: 15rem;
   }
@@ -6089,6 +8145,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 15rem;
   }
   .md-pb-15rem {
+    padding-bottom: 15rem;
+  }
+  .md-px-15rem {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .md-py-15rem {
+    padding-top: 15rem;
     padding-bottom: 15rem;
   }
   .sp-15rem {
@@ -6133,6 +8197,14 @@ Margin, Paddings,Section Padding, width, and height
   .lg-mb-15rem {
     margin-bottom: 15rem;
   }
+  .lg-mx-15rem {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .lg-my-15rem {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
   .p-15rem {
     padding: 15rem;
   }
@@ -6140,6 +8212,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 15rem;
   }
   .lg-pb-15rem {
+    padding-bottom: 15rem;
+  }
+  .lg-px-15rem {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .lg-py-15rem {
+    padding-top: 15rem;
     padding-bottom: 15rem;
   }
   .sp-15rem {
@@ -6184,6 +8264,14 @@ Margin, Paddings,Section Padding, width, and height
   .xl-mb-15rem {
     margin-bottom: 15rem;
   }
+  .xl-mx-15rem {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .xl-my-15rem {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
   .p-15rem {
     padding: 15rem;
   }
@@ -6191,6 +8279,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 15rem;
   }
   .xl-pb-15rem {
+    padding-bottom: 15rem;
+  }
+  .xl-px-15rem {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .xl-py-15rem {
+    padding-top: 15rem;
     padding-bottom: 15rem;
   }
   .sp-15rem {
@@ -6235,6 +8331,14 @@ Margin, Paddings,Section Padding, width, and height
   .xxl-mb-15rem {
     margin-bottom: 15rem;
   }
+  .xxl-mx-15rem {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .xxl-my-15rem {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
   .p-15rem {
     padding: 15rem;
   }
@@ -6242,6 +8346,14 @@ Margin, Paddings,Section Padding, width, and height
     padding-top: 15rem;
   }
   .xxl-pb-15rem {
+    padding-bottom: 15rem;
+  }
+  .xxl-px-15rem {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .xxl-py-15rem {
+    padding-top: 15rem;
     padding-bottom: 15rem;
   }
   .sp-15rem {
@@ -8676,6 +10788,7 @@ align self || justify self || align items || justify content || text align
 .btn--text {
   text-decoration: none;
   color: #f2e9e4;
+  cursor: pointer;
 }
 .btn--text .text {
   display: inline-block;
@@ -9097,6 +11210,76 @@ header {
 }
 
 /*=============
+  Section Project Details 
+  =============*/
+.project-details {
+  background-color: #4a4e69;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+@media (min-width: 62em) {
+  .project-details {
+    flex-direction: row;
+  }
+}
+.project-details__image-box {
+  background-color: red;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 62em) {
+  .project-details__image-box {
+    width: 43%;
+    flex-direction: row;
+  }
+}
+.project-details__image-box img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.03);
+}
+.project-details__text-box {
+  width: 100%;
+}
+@media (min-width: 62em) {
+  .project-details__text-box {
+    width: 55%;
+  }
+}
+/*=============
+  Section Links
+  =============*/
+.section-link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.section-link__link-item {
+  color: #22223b;
+  background-color: #f2e9e4;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.section-link__link-item:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 1rem rgba(154, 140, 152, 0.5);
+}
+
+/*=============
+  Section Responsive images
+  =============*/
+/*=============
   Navbar
   =============*/
 .navbar {
@@ -9106,6 +11289,10 @@ header {
   font-size: 1.6rem;
   padding: 2.6rem 0;
   position: relative;
+}
+.navbar__logo-link {
+  color: #f2e9e4;
+  text-decoration: none;
 }
 .navbar__links {
   display: none;
