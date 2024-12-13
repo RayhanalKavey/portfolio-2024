@@ -1,39 +1,103 @@
 [
   {
     "project_id": "01",
-    "projectCategory": "React and MongoDb",
-    "projectName": "Laptop Utopia",
-    "projectTitle": "A laptop resell website",
-    "img": "https://i.ibb.co/sC1Ks3m/Laptop-Utopia.png",
+    "projectCategory": "Tailwind CSS",
+    "img": "https://i.ibb.co/TqHfptn/home-jm.png",
+    "projectName": "Job Management",
+    "projectTitle": "Job Portal website",
+    "githubServer": "https://github.com/RayhanalKavey/Job-management-server",
+    "githubClient": "https://github.com/RayhanalKavey/Jom-management-client",
+    "liveLink": "https://job-management-bdd37.web.app/",
     "details": [
-      "Online booking for reselling products, all the generated data integrated with the backend. Stripe payment method implemented in this project",
-      "Buyers and sellers are controlled with a private route, specific user route, and JWT token",
-      "Technologies used are MongoDB, React, Tailwind, DaisyUI, and firebase authentication"
+      "As an employer, registering on our platform allows you to easily post job opportunities from your dashboard. Upon registration, you'll be able to manage your job listings, including the ability to edit or delete them when needed.",
+      "Job seekers can also register on our platform to apply for job openings from their dashboard. You'll be able to view a list of your applied jobs and track their status. Once you've applied for a job, the apply button will change to indicate that you've already applied.",
+      "If registered as a job seeker, then you can apply for a job. There is a Job detail page and a blog section. You can see the blog details is a separate page. You can update your employer profile and job seeker profile."
+    ],
+    "responsiveImg": [
+      "https://i.ibb.co/7grBKS2/desk-jm.png",
+      "https://i.ibb.co/qjBWbw5/tab-jm.png",
+      "https://i.ibb.co/6rTJhgf/mob-jm.png"
     ]
   },
   {
     "project_id": "02",
+    "projectCategory": "React and MongoDb",
+    "img": "https://i.ibb.co/sC1Ks3m/Laptop-Utopia.png",
+    "projectName": "Laptop Utopia",
+    "projectTitle": "A laptop resell website",
+    "githubServer": "https://github.com/RayhanalKavey/used-products-resale-react-mongoDB-server-side-project-a12",
+    "githubClient": "https://github.com/RayhanalKavey/used-products-resale-react-mongoDB-clients-side-project-a12",
+    "liveLink": "https://rak-assignment-12.web.app/",
+    "details": [
+      "Online booking for reselling products, all the generated data integrated with the backend. Stripe payment method implemented in this project",
+      "Buyers and sellers are controlled with a private route, specific user route, and JWT token",
+      "Technologies used are MongoDB, React, Tailwind, DaisyUI, and firebase authentication"
+    ],
+    "responsiveImg": [
+      "https://i.ibb.co/xmzb3yd/lap-full.png",
+      "https://i.ibb.co/mvYZnby/lap-tab.png",
+      "https://i.ibb.co/sPpLhsQ/lap-mobile.png"
+    ]
+  },
+  {
+    "project_id": "03",
     "projectCategory": "Tailwind CSS",
+    "img": "https://i.ibb.co/r5H1xSN/Photo-Bizz.png",
     "projectName": "Photo Bizz",
     "projectTitle": "A service provider's website",
-    "img": "https://i.ibb.co/r5H1xSN/Photo-Bizz.png",
+    "githubServer": "https://rak-assignment-12.web.app/",
+    "githubClient": "https://github.com/RayhanalKavey/photography-service-react-mongodb-project-client-a11",
+    "liveLink": "https://photo-bizz.web.app/",
     "details": [
-      "Responsive website, where customers can review from the service details page and can see his/her own review as well as another customer review for individual service",
-      "Customers' own reviews are displayed in a specific route, and the customer can modify it. Data is stored in the backend and protected by a JWT token",
-      "MongoDB, React, Tailwind, DaisyUI, and firebase authentication systems like Email Password, Google, and GitHub login integrated in this project"
+      "Only three services appear on the home page. By clicking the ‘see all’ button user can see all the services.",
+      "Then clicking the ‘service details’ button user can see the details of the product and comments of every user.",
+      "Logged in user can leave a review for every service, and can see his/her own review on ‘my review’ page and can edit or delete reviews. Fully responsive to mobile, tablet, and laptop. Data stored and integrated from MongoDB."
+    ],
+    "responsiveImg": [
+      "https://i.ibb.co/Sf3z8sW/Screenshot-2022-12-11-at-9-25-22-PM.png",
+      "https://i.ibb.co/DbqnL2f/Screenshot-2022-12-11-at-9-27-27-PM.png",
+      "https://i.ibb.co/Dg9Dj39/Screenshot-2022-12-11-at-9-28-03-PM.png"
     ]
   },
 
   {
-    "project_id": "03",
+    "project_id": "04",
     "projectCategory": "BootStrap",
     "projectName": "React Guideline",
     "projectTitle": "A online learning website",
     "img": "https://i.ibb.co/5nfRytr/Complete-React-Guidline.png",
+    "githubServer": "https://github.com/RayhanalKavey/learning-site-react-project-server-a10",
+    "githubClient": "https://github.com/RayhanalKavey/learning-site-react-project-client-a10",
+    "liveLink": "https://the-complete-react-guideline.web.app/",
     "details": [
       "An online tutorial website where react routing system is the main focus",
       "Build with React, React Bootstrap, Bootstrap, and Firebase authentication systems like Google, GitHub, and Email login implemented",
       "Packages like React Router, React Icons, React Hot Toast, and React to Print were used in this project"
+    ],
+    "responsiveImg": [
+      "https://i.ibb.co/3FgYN5W/tutorial.png",
+      "https://i.ibb.co/YLZ6zTS/tutorial-tb.png",
+      "https://i.ibb.co/b3YVgxN/tutorial-m.png"
+    ]
+  },
+  {
+    "project_id": "05",
+    "projectCategory": "BootStrap",
+    "projectName": "Task Controller",
+    "projectTitle": "Task management website",
+    "img": "https://i.ibb.co/MNsWwJf/task-home.png",
+    "githubServer": "https://github.com/RayhanalKavey/task-controller-server",
+    "githubClient": "https://github.com/RayhanalKavey/task-controller-client",
+    "liveLink": "https://task-controller-c7af6.web.app/",
+    "details": [
+      "From the Add Task page, the user can add a task. After adding it will appear on the My Task page. User can attach an image if the user wants, which will show up on the All Media page. Dark mode integrated into this website.",
+      "On the My Task page, the user can update, delete, and edit tasks. If the task is done, the user can press the complete button to make it complete.",
+      "The completed task will appear on the Completed Task page. Here user can reassign as well as delete the task. Logged-in users can also leave a comment for every task. Users can update their profile."
+    ],
+    "responsiveImg": [
+      "https://i.ibb.co/R7R4VTb/task-desk.png",
+      "https://i.ibb.co/sbV8Jq6/task-tablet.png",
+      "https://i.ibb.co/JRNHhS0/task-mob.png"
     ]
   }
 ]

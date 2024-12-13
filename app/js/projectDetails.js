@@ -1,7 +1,7 @@
 /* ================
 Get Project data from project.json
 ================== */
-let projectDetailsSection = document.querySelector("#project_details");
+let projectDetailsSection = document.querySelector("#project-details");
 async function fetchProjectData() {
   showLoading();
   console.log("Getting data...");
@@ -18,71 +18,68 @@ async function fetchProjectData() {
   }
 }
 fetchProjectData();
-// window.onload = function () {
-//   const project = JSON.parse(localStorage.getItem("selectedProject"));
-//   console.log(project);
-//   projectDetailsSection.innerHTML = `<div class="project-card">
-//         <div class="project-card__text-box">
-//           <h4 class="project-card__title mb-2rem">${project.projectName}</h4>
-//           <p class="paragraph">
-//            ${project.projectTitle}
-//           </p>
-//         </div>
-//         <div class="project-card__image-box">
-//           <img
-//             src="${project.img}"
-//             alt=""
-//           />
-//         </div>
-//       </div>`;
-// };
+
 window.onload = function () {
   const project = JSON.parse(localStorage.getItem("selectedProject"));
-  console.log(project);
-  projectDetailsSection.innerHTML = ` <div class="container">
-    <div class="title">${project.projectName}</div>
+  project?.details.forEach((detail) => {});
+  projectDetailsSection.innerHTML = ` 
+      <!-- ==========
+      Section Project Details 
+      =============-->
+      <h2 class="pt-8rem heading-secondary mb-5rem text-align-center">
+        ${project?.projectTitle}
+      </h2>
+      <section
+        class="project-details container-2rem sm-container-4rem py-2rem sm-py-4rem">
+        <div class="project-details__image-box">
+          <img
+            src="${project?.img}"
+            alt="Project Image" />
+        </div>
+        <div class="project-details__text-box">
+          <ul class="project-details__details-list pl-2rem">
+            <li>
+             ${project?.details[0]}
+            </li>
+            <li>
+               ${project?.details[1]}
+            </li>
+            <li>
+              ${project?.details[2]}
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Project Details -->
-    <div class="project-details">
-      <div class="image">
-        <img src="project-image.jpg" alt="Project Image">
-      </div>
-      <div class="details-text">
-        <h3>Project Name: <span>Project Name || Project Title</span></h3>
-        <h3>Project Details:</h3>
-        <ul>
-          <li>Detail 1 about the project.</li>
-          <li>Detail 2 about the project.</li>
-          <li>Detail 3 about the project.</li>
-        </ul>
-      </div>
-    </div>
+      <!-- ==========
+       Section Links
+        =============-->
+      <section class="section-link sp-6rem">
+        <a href="${project?.githubServer}" target="_blank" class="section-link__link-item">GitHub Server Repository</a>
+        <a href="${project?.githubClient}" target="_blank" class="section-link__link-item">GitHub Client Repository</a>
+        <a href="${project?.liveLink}" target="_blank" class="section-link__link-item">Live Link</a>
+      </section>
 
-    <!-- Links -->
-    <div class="links">
-      <a href="#" class="link-item">GitHub Server Repository</a>
-      <a href="#" class="link-item">GitHub Client Repository</a>
-      <a href="#" class="link-item">Live Link</a>
-    </div>
+      <!-- ==========
+       Section Responsive images
+        =============-->
+      <section class="section-responsive spb-10rem">
+        <h2 class="heading-secondary text-align-center">Responsive Design</h2>
 
-    <!-- Responsive Design -->
-    <div class="responsive-section">
-      <h2>Responsive Design</h2>
-
-      <div class="responsive-view">
-        <img src="desktop-view.jpg" alt="Desktop View">
-        <h3>Desktop View</h3>
-      </div>
-
-      <div class="responsive-view">
-        <h3>Tablet View</h3>
-        <img src="tablet-view.jpg" alt="Tablet View">
-      </div>
-
-      <div class="responsive-view">
-        <img src="mobile-view.jpg" alt="Mobile View">
-        <h3>Mobile View</h3>
-      </div>
-    </div>
-  </div>`;
+        <div class="gallery pt-4rem">
+          <img
+            class="gallery__img"
+            src="${project?.responsiveImg[0]}"
+            alt="Image 1" />
+          <img
+            class="gallery__img"
+            src="${project?.responsiveImg[1]}"
+            alt="Image 2" />
+          <img
+            class="gallery__img"
+            src="${project?.responsiveImg[2]}"
+            alt="Image 3" />
+         
+        </div>
+      </section>`;
 };
