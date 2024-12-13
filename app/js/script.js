@@ -1,5 +1,6 @@
 const URL = `../../public/projects.json`;
-const QUERY_URL = `http://127.0.0.1:5501`;
+const QUERY_URL = window.location.origin;
+
 /*=======
 Handle loading
 =========*/
@@ -65,7 +66,12 @@ function showProjectDetails(id) {
   const selectedProject = projects?.find((project) => project.project_id == id);
   if (selectedProject) {
     localStorage.setItem("selectedProject", JSON.stringify(selectedProject));
-    window.location.href = `${QUERY_URL}/html/projectDetails.html`;
+
+    // Get the current location but exclude the file part (like index.html)
+    const queryURL = window.location.origin;
+
+    // Redirect to project details page
+    window.location.href = `${queryURL}/html/projectDetails.html`;
   }
 }
 

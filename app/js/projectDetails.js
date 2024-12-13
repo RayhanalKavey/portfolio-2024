@@ -2,26 +2,9 @@
 Get Project data from project.json
 ================== */
 let projectDetailsSection = document.querySelector("#project-details");
-async function fetchProjectData() {
-  showLoading();
-  console.log("Getting data...");
-  let response = await fetch(URL);
-  projects = await response.json();
-
-  // Check data fetched or not
-  if (projects.length === 0) {
-    console.log("Projects data is not loaded yet.");
-    return;
-  } else {
-    console.log("Data get successfully..");
-    injectProject(projects);
-  }
-}
-fetchProjectData();
 
 window.onload = function () {
   const project = JSON.parse(localStorage.getItem("selectedProject"));
-  project?.details.forEach((detail) => {});
   projectDetailsSection.innerHTML = ` 
       <!-- ==========
       Section Project Details 
